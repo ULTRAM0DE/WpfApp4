@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp4.ManWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4"
+        mc:Ignorable="d"
+        Title="ManWindow" Height="535.238" Width="310.21">
+    <Grid Margin="0,0,4,-0.4">
+
+        <Image x:Name="image" HorizontalAlignment="Left" Height="379" Margin="10,0,-219.6,0" VerticalAlignment="Top" Width="507" Source="/Image\12.jpg"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,384,-13.6,0" TextWrapping="Wrap" Text="Вы выбрали мужчину, так выглядит ваш персонаж)" VerticalAlignment="Top" Height="25" Width="301"/>
+        <Button x:Name="Story1button" Content="Начать Квест" HorizontalAlignment="Left" Margin="89,414,0,0" VerticalAlignment="Top" Width="139" Height="40" Click="Story1button_Click"/>
+        <Button x:Name="button" Content="Вернуться" HorizontalAlignment="Left" Margin="89,459,0,0" VerticalAlignment="Top" Width="139" Height="39" Click="button_Click"/>
+    </Grid>
+</Window>
