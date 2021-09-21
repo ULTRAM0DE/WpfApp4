@@ -12,21 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfApp4
+namespace WpfApp4.Person
 {
     /// <summary>
-    /// Логика взаимодействия для StoryMan.xaml
+    /// Логика взаимодействия для StoryMan2Pesok.xaml
     /// </summary>
-    public partial class StoryMan : Window
+    public partial class StoryMan2Pesok : Window
     {
-        public StoryMan()
+        public StoryMan2Pesok()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

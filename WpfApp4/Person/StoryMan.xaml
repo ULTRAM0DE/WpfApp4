@@ -7,6 +7,19 @@
         mc:Ignorable="d"
         Title="StoryMan" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="774"><Run Text="Вы молодой гладиаторский боец подающий большие надежды, публика любит вас и каждый ваш бой собирает полный зал зрителей.Вы до сих пор помните свой первый бой."/><LineBreak/><Run Text="Тогда была дождливая погода, ваш соперник уже был не новичком в гладиаторских поединках, огромный мужчина с секирой в руках против молодого парня спортивного телосложения, казалось что исход боя очевиден но вы оказались не так просты, когда вы уже порядком измотались и меч в ваших руках так и норовил выскользнуть вы сделали..."/></TextBlock>
+        <Button x:Name="button" Content="Бросок песка в глаза" HorizontalAlignment="Left" Margin="62,339,0,0" VerticalAlignment="Top" Width="234" Height="71" Click="button_Click"/>
+        <Button x:Name="button1" Content="Перекат с последующим пируэтом" HorizontalAlignment="Left" Margin="457,339,0,0" VerticalAlignment="Top" Width="219" Height="71"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="235" Margin="205,97,-1941.4,0" VerticalAlignment="Top" Width="2530" Source="/Image\14.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="0.061"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
     </Grid>
 </Window>
