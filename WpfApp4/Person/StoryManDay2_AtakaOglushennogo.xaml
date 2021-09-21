@@ -5,10 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2_AtakaOglushennogo" Height="450" Width="800">
+        Title="StoryManDay2_AtakaOglushennogo" Height="450" Width="536.864">
     <Grid>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="296,344,0,0" VerticalAlignment="Top" Width="164" Height="47"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, ваш удар смещается по касательной в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?" VerticalAlignment="Top" Height="55" Width="774"/>
+        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="156,363,0,0" VerticalAlignment="Top" Width="164" Height="47"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="92" Width="774"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="266" Margin="128,87,-564.6,0" VerticalAlignment="Top" Width="967" Source="/Image\24.jpg"/>
 
     </Grid>
 </Window>

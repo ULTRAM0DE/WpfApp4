@@ -23,5 +23,12 @@ namespace WpfApp4.Person
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay2_AtakaOglushennogo storyManDay2_AtakaOglushennogo = new StoryManDay2_AtakaOglushennogo();
+            storyManDay2_AtakaOglushennogo.Show();
+            this.Close();
+        }
     }
 }

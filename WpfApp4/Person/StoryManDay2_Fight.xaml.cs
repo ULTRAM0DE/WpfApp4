@@ -30,5 +30,12 @@ namespace WpfApp4.Person
             storyManDay2Napadenie.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay2Yklonenie storyManDay2Yklonenie = new StoryManDay2Yklonenie();
+            storyManDay2Yklonenie.Show();
+            this.Close();
+        }
     }
 }

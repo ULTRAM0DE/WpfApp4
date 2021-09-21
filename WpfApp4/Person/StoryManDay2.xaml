@@ -8,7 +8,7 @@
         Title="StoryManDay2" Height="452.542" Width="347.458">
     <Grid Margin="0,0,3.6,0">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="148,10,0,0" TextWrapping="Wrap" Text="Актовиан" VerticalAlignment="Top" Height="20" Width="57"/>
-        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="105,348,0,0" VerticalAlignment="Top" Width="145" Height="62"/>
+        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="105,348,0,0" VerticalAlignment="Top" Width="145" Height="62" Click="button_Click"/>
         <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="10,300,0,0" TextWrapping="Wrap" Text="Актовиан, быстрый соперник который любит применять грязные приемы из-за чего в народе получил прозвище Змееликий" VerticalAlignment="Top" Height="48" Width="335" RenderTransformOrigin="-0.102,0.355"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="253" Margin="105,35,-1039.8,0" VerticalAlignment="Top" Width="1500" Source="/Image\20.jpg"/>
     </Grid>
