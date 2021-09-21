@@ -11,31 +11,30 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using WpfApp4.Person;
 
-namespace WpfApp4
+namespace WpfApp4.Person
 {
     /// <summary>
-    /// Логика взаимодействия для StoryMan.xaml
+    /// Логика взаимодействия для StoryMan2Pesok2_1.xaml
     /// </summary>
-    public partial class StoryMan : Window
+    public partial class StoryMan2Pesok2_1 : Window
     {
-        public StoryMan()
+        public StoryMan2Pesok2_1()
         {
             InitializeComponent();
         }
 
-        private void button_Click(object sender, RoutedEventArgs e)
+        private void button1_Click(object sender, RoutedEventArgs e)
         {
-            StoryMan2Pesok storyMan2Pesok = new StoryMan2Pesok();
-            storyMan2Pesok.Show();
+            StoryMan2Pesok3_2 storyMan2Pesok3_2 = new StoryMan2Pesok3_2();
+            storyMan2Pesok3_2.Show();
             this.Close();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
-            StoryMan2Piruet storyMan2Piruet = new StoryMan2Piruet();
-            storyMan2Piruet.Show();
+            StoreMan2Pesok3_1 storyMan2Pesok3_1 = new StoreMan2Pesok3_1();
+            storyMan2Pesok3_1.Show();
             this.Close();
         }
     }

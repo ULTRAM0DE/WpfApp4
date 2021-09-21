@@ -15,18 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp4.Person
 {
     /// <summary>
-    /// Логика взаимодействия для StoryMan2Pesok.xaml
+    /// Логика взаимодействия для StoreMan2Pesok3_1.xaml
     /// </summary>
-    public partial class StoryMan2Pesok : Window
+    public partial class StoreMan2Pesok3_1 : Window
     {
-        public StoryMan2Pesok()
+        public StoreMan2Pesok3_1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }

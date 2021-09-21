@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Person\StoreMan2Pesok3_1.xaml.cs">
+      <DependentUpon>StoreMan2Pesok3_1.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Person\StoryMan.xaml.cs">
       <DependentUpon>StoryMan.xaml</DependentUpon>
     </Compile>
@@ -81,11 +84,31 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Person\StoreMan2Pesok3_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Person\StoryMan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Person\StoryMan2Pesok.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryMan2Pesok2_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryMan2Pesok3_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryMan2Piruet.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryMan2_2Pesok.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -104,6 +127,18 @@
     </Compile>
     <Compile Include="Person\StoryMan2Pesok.xaml.cs">
       <DependentUpon>StoryMan2Pesok.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryMan2Pesok2_1.xaml.cs">
+      <DependentUpon>StoryMan2Pesok2_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryMan2Pesok3_2.xaml.cs">
+      <DependentUpon>StoryMan2Pesok3_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryMan2Piruet.xaml.cs">
+      <DependentUpon>StoryMan2Piruet.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryMan2_2Pesok.xaml.cs">
+      <DependentUpon>StoryMan2_2Pesok.xaml</DependentUpon>
     </Compile>
     <Compile Include="Person\WomanStory.xaml.cs">
       <DependentUpon>WomanStory.xaml</DependentUpon>
@@ -144,6 +179,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\14.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\15.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\166.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

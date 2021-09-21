@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp4.Person.StoryMan2Pesok2_1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.Person"
+        mc:Ignorable="d"
+        Title="StoryMan2Pesok2_1" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="774" Text="Вы резко разворачиваетесь и хотите добить своего врага, но не тут то было. На скользком песке вы поскальзываетесь и оказываетесь в ловушке - на вас летит противник с мечом,ещё чуть-чуть и вы будете мертвы, что же вам делать?"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="257" Margin="150,64,0,0" VerticalAlignment="Top" Width="562" Source="/Image\166.jpg"/>
+        <Button x:Name="button" Content="Сделать перекат" HorizontalAlignment="Left" Margin="65,356,0,0" VerticalAlignment="Top" Width="207" Height="54" Click="button_Click"/>
+        <Button x:Name="button1" Content="Поставить блок" HorizontalAlignment="Left" Margin="443,356,0,0" VerticalAlignment="Top" Width="184" Height="54" Click="button1_Click"/>
+
+    </Grid>
+</Window>
