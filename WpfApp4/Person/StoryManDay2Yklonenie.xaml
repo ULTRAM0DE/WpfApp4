@@ -1,0 +1,15 @@
+﻿<Window x:Class="WpfApp4.Person.StoryManDay2Yklonenie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.Person"
+        mc:Ignorable="d"
+        Title="StoryManDay2Yklonenie" Height="455.084" Width="801.271">
+    <Grid Margin="0,0,4,3.6">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="66" Width="774"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="241" Margin="199,62,-16.8,0" VerticalAlignment="Top" Width="609" Source="/Image\22.png"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="294,330,0,0" VerticalAlignment="Top" Width="177" Height="69"/>
+
+    </Grid>
+</Window>

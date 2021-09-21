@@ -116,6 +116,22 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Person\StoryManDay2Napadenie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryManDay2Yklonenie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryManDay2_AtakaOglushennogo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Person\StoryManDay2_Fight.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Person\WomanStory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -146,6 +162,18 @@
     </Compile>
     <Compile Include="Person\StoryManDay2.xaml.cs">
       <DependentUpon>StoryManDay2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryManDay2Napadenie.xaml.cs">
+      <DependentUpon>StoryManDay2Napadenie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryManDay2Yklonenie.xaml.cs">
+      <DependentUpon>StoryManDay2Yklonenie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryManDay2_AtakaOglushennogo.xaml.cs">
+      <DependentUpon>StoryManDay2_AtakaOglushennogo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryManDay2_Fight.xaml.cs">
+      <DependentUpon>StoryManDay2_Fight.xaml</DependentUpon>
     </Compile>
     <Compile Include="Person\WomanStory.xaml.cs">
       <DependentUpon>WomanStory.xaml</DependentUpon>
@@ -198,6 +226,18 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\19.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\20.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\23.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
