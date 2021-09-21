@@ -55,13 +55,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Person\StoreMan2Pesok3_1.xaml.cs">
+    <Compile Include="PersonMan\StoreMan2Pesok3_1.xaml.cs">
       <DependentUpon>StoreMan2Pesok3_1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan.xaml.cs">
+    <Compile Include="PersonMan\StoryMan.xaml.cs">
       <DependentUpon>StoryMan.xaml</DependentUpon>
     </Compile>
-    <Page Include="Person\ChousePerson.xaml">
+    <Page Include="CreatePerson\ChousePerson.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -73,112 +73,112 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Person\ChousePerson.xaml.cs">
+    <Compile Include="CreatePerson\ChousePerson.xaml.cs">
       <DependentUpon>ChousePerson.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Person\ManWindow.xaml">
+    <Page Include="PersonMan\ManWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoreMan2Pesok3_1.xaml">
+    <Page Include="PersonMan\StoreMan2Pesok3_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan.xaml">
+    <Page Include="PersonMan\StoryMan.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan2Pesok.xaml">
+    <Page Include="PersonMan\StoryMan2Pesok.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan2Pesok2_1.xaml">
+    <Page Include="PersonMan\StoryMan2Pesok2_1.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan2Pesok3_2.xaml">
+    <Page Include="PersonMan\StoryMan2Pesok3_2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan2Piruet.xaml">
+    <Page Include="PersonMan\StoryMan2Piruet.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryMan2_2Pesok.xaml">
+    <Page Include="PersonMan\StoryMan2_2Pesok.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryManDay2.xaml">
+    <Page Include="PersonMan\StoryManDay2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryManDay2Napadenie.xaml">
+    <Page Include="PersonMan\StoryManDay2Napadenie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryManDay2Yklonenie.xaml">
+    <Page Include="PersonMan\StoryManDay2Yklonenie.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryManDay2_AtakaOglushennogo.xaml">
+    <Page Include="PersonMan\StoryManDay2_AtakaOglushennogo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\StoryManDay2_Fight.xaml">
+    <Page Include="PersonMan\StoryManDay2_Fight.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\WomanStory.xaml">
+    <Page Include="PersonWoman\WomanStory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Person\WomanWindow.xaml">
+    <Page Include="PersonWoman\WomanWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Person\ManWindow.xaml.cs">
+    <Compile Include="PersonMan\ManWindow.xaml.cs">
       <DependentUpon>ManWindow.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan2Pesok.xaml.cs">
+    <Compile Include="PersonMan\StoryMan2Pesok.xaml.cs">
       <DependentUpon>StoryMan2Pesok.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan2Pesok2_1.xaml.cs">
+    <Compile Include="PersonMan\StoryMan2Pesok2_1.xaml.cs">
       <DependentUpon>StoryMan2Pesok2_1.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan2Pesok3_2.xaml.cs">
+    <Compile Include="PersonMan\StoryMan2Pesok3_2.xaml.cs">
       <DependentUpon>StoryMan2Pesok3_2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan2Piruet.xaml.cs">
+    <Compile Include="PersonMan\StoryMan2Piruet.xaml.cs">
       <DependentUpon>StoryMan2Piruet.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryMan2_2Pesok.xaml.cs">
+    <Compile Include="PersonMan\StoryMan2_2Pesok.xaml.cs">
       <DependentUpon>StoryMan2_2Pesok.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryManDay2.xaml.cs">
+    <Compile Include="PersonMan\StoryManDay2.xaml.cs">
       <DependentUpon>StoryManDay2.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryManDay2Napadenie.xaml.cs">
+    <Compile Include="PersonMan\StoryManDay2Napadenie.xaml.cs">
       <DependentUpon>StoryManDay2Napadenie.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryManDay2Yklonenie.xaml.cs">
+    <Compile Include="PersonMan\StoryManDay2Yklonenie.xaml.cs">
       <DependentUpon>StoryManDay2Yklonenie.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryManDay2_AtakaOglushennogo.xaml.cs">
+    <Compile Include="PersonMan\StoryManDay2_AtakaOglushennogo.xaml.cs">
       <DependentUpon>StoryManDay2_AtakaOglushennogo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\StoryManDay2_Fight.xaml.cs">
+    <Compile Include="PersonMan\StoryManDay2_Fight.xaml.cs">
       <DependentUpon>StoryManDay2_Fight.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\WomanStory.xaml.cs">
+    <Compile Include="PersonWoman\WomanStory.xaml.cs">
       <DependentUpon>WomanStory.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Person\WomanWindow.xaml.cs">
+    <Compile Include="PersonWoman\WomanWindow.xaml.cs">
       <DependentUpon>WomanWindow.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
