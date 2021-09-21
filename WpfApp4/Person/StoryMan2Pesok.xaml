@@ -8,8 +8,18 @@
         Title="StoryMan2Pesok" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Противник отворачивается, и закрывает лицо руками. В панике он быстро пытается очистить глаза от песка, но вы наносите ему чёткий удар в спину. Но противник не собирается сдаваться и нападает на вас снова, каким будет ваше следующие действие?" VerticalAlignment="Top" Height="46" Width="774"/>
-        <Button x:Name="button" Content="Вы добиваете противника" HorizontalAlignment="Left" Margin="126,281,0,0" VerticalAlignment="Top" Width="147" Height="61"/>
-        <Button x:Name="button1" Content="Встать в боевую стойку" HorizontalAlignment="Left" Margin="494,281,0,0" VerticalAlignment="Top" Width="160" Height="61" Click="button1_Click"/>
+        <Button x:Name="button" Content="Вы добиваете противника" HorizontalAlignment="Left" Margin="130,349,0,0" VerticalAlignment="Top" Width="147" Height="61" Click="button_Click"/>
+        <Button x:Name="button1" Content="Встать в боевую стойку" HorizontalAlignment="Left" Margin="516,349,0,0" VerticalAlignment="Top" Width="160" Height="61" Click="button1_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="280" Margin="209,56,-220.4,0" VerticalAlignment="Top" Width="805" Source="/Image\15.jpg" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.341"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
 
     </Grid>
 </Window>

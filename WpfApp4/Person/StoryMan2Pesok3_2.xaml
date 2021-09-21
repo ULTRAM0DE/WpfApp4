@@ -7,6 +7,8 @@
         mc:Ignorable="d"
         Title="StoryMan2Pesok3_2" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вы пытаетесь поставить блок, но все тчетно, секира противника пробивает ваше тело как нож масло, вы медленно закатываете глаза и погружаетесь в вечную темноту." VerticalAlignment="Top" Height="40" Width="774"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="284" Margin="134,50,0,0" VerticalAlignment="Top" Width="509" Source="/Image\18.jpg"/>
+
     </Grid>
 </Window>

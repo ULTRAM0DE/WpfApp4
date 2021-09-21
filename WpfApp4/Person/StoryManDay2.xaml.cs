@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp4.Person
 {
     /// <summary>
-    /// Логика взаимодействия для StoryMan2Piruet.xaml
+    /// Логика взаимодействия для StoryManDay2.xaml
     /// </summary>
-    public partial class StoryMan2Piruet : Window
+    public partial class StoryManDay2 : Window
     {
-        public StoryMan2Piruet()
+        public StoryManDay2()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            StoryManDay2 storyManDay2 = new StoryManDay2();
-            storyManDay2.Show();
-            this.Close();
         }
     }
 }

@@ -112,6 +112,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Person\StoryManDay2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Person\WomanStory.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -139,6 +143,9 @@
     </Compile>
     <Compile Include="Person\StoryMan2_2Pesok.xaml.cs">
       <DependentUpon>StoryMan2_2Pesok.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person\StoryManDay2.xaml.cs">
+      <DependentUpon>StoryManDay2.xaml</DependentUpon>
     </Compile>
     <Compile Include="Person\WomanStory.xaml.cs">
       <DependentUpon>WomanStory.xaml</DependentUpon>
@@ -185,6 +192,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\166.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\18.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\19.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

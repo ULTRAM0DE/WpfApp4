@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="StoreMan2Pesok3_1" Height="450" Width="800">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вы чудом успеваете оттолкнуться от песка и перекатиться за спину вашему врагу. Вы оказываетесь у него за спиной и наносите решающий удар. Наконец-то враг повержен." VerticalAlignment="Top" Height="40" Width="774"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="286" Margin="122,50,0,0" VerticalAlignment="Top" Width="662" Source="/Image\19.jpg"/>
+        <Button x:Name="button" Content="Перейти на следующий день" HorizontalAlignment="Left" Margin="235,341,0,0" VerticalAlignment="Top" Width="259" Height="69" Click="button_Click"/>
+
     </Grid>
 </Window>

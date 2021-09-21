@@ -26,7 +26,17 @@ namespace WpfApp4.Person
 
         private void button1_Click(object sender, RoutedEventArgs e)
         {
+            StoryMan2_2Pesok storyMan2_2Pesok = new StoryMan2_2Pesok();
+            storyMan2_2Pesok.Show();
+            this.Close();
 
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StoryMan2Pesok2_1 storyMan2Pesok2_1 = new StoryMan2Pesok2_1();
+            storyMan2Pesok2_1.Show();
+            this.Close();
         }
     }
 }

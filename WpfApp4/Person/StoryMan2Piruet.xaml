@@ -8,6 +8,8 @@
         Title="StoryMan2Piruet" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,-0.4,0" TextWrapping="Wrap" Text="Вы делаете быстрый перекат за спину врага, но противник это ожидал, он пытается резко развернуться, но слишком поздно, вы резким взмахом меча отражаете его попытку блока и наносите точный удар в область сердца, прерывая жизнь вашего соперника." VerticalAlignment="Top" Height="44" Width="784"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="280" Margin="123,59,0,0" VerticalAlignment="Top" Width="596" Source="/Image\19.jpg"/>
+        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="248,361,0,0" VerticalAlignment="Top" Width="245" Height="49" Click="button_Click"/>
 
     </Grid>
 </Window>
