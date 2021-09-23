@@ -9,7 +9,8 @@
     <Grid Margin="0,0,3.6,5">
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="86" Width="774"><Run Text="Вы встаете в стойку пытаясь поймать хотя бы малейший шанс для удачной атаки, "/><LineBreak/><Run Text="но Актовиан отработанным в десятках боев ударом совершает обманный маневр,"/><LineBreak/><Run Text=" тем самым провоцируя вас "/><LineBreak/><Run Text="на атаку, а после трезубцем наносит удар вам в ногу. "/><LineBreak/><Run Text="Актовиан замахивается для второго удара, что будете делать?"/></TextBlock>
         <Image x:Name="image" HorizontalAlignment="Left" Height="245" Margin="137,96,-207,0" VerticalAlignment="Top" Width="552" Source="/Image\23.png"/>
-        <Button x:Name="button" Content="Button" HorizontalAlignment="Left" Margin="137,363,0,0" VerticalAlignment="Top" Width="159" Height="42"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="35,363,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="button_Click"/>
+        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="247,363,0,0" VerticalAlignment="Top" Width="165" Height="42" Click="button1_Click"/>
 
     </Grid>
 </Window>

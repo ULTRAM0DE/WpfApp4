@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfApp4.Person
+namespace WpfApp4.PersonMan.Day2
 {
     /// <summary>
-    /// Логика взаимодействия для StoryManDay2_AtakaOglushennogo.xaml
+    /// Логика взаимодействия для StoryManDay2Prervat_ataky.xaml
     /// </summary>
-    public partial class StoryManDay2_AtakaOglushennogo : Window
+    public partial class StoryManDay2Prervat_ataky : Window
     {
-        public StoryManDay2_AtakaOglushennogo()
+        public StoryManDay2Prervat_ataky()
         {
             InitializeComponent();
         }

@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp4.PersonMan.Day2.StoryManDay2Kyvirok"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
+        mc:Ignorable="d"
+        Title="StoryManDay2Kyvirok" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="774"><Run Text="Вы делаете кувырок в сторону за секунду до того как клинок Актовиана врезается в землю разбросав песок, вы встаете ощущая боль в"/><LineBreak/><Run Text="ноге, вы чувствуете как что-то теплое стекает от места пореза. Кажется вы ранены, у своей ноги вы замечаете виллы Актовиана. Тем временем Актовиан пытаеться нанести вам колющий удар в грудь"/><Run Text="."/></TextBlock>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="269" Margin="173,69,0,0" VerticalAlignment="Top" Width="472" Source="/Image\143.png"/>
+        <Button x:Name="button" Content="Прервать атаку" HorizontalAlignment="Left" Margin="173,356,0,0" VerticalAlignment="Top" Width="144" Height="46" Click="button_Click"/>
+        <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="505,356,0,0" VerticalAlignment="Top" Width="140" Height="46" Click="button1_Click"/>
+
+    </Grid>
+</Window>

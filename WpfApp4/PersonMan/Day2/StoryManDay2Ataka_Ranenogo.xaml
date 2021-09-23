@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp4.PersonMan.StoryManDay2Ataka_Ranenogo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.PersonMan"
+        mc:Ignorable="d"
+        Title="StoryManDay2Ataka_Ranenogo" Height="450" Width="800">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Актовиан ждал атаки и проткнул ваше сердце кинжалом который он скрывал придерживая рану, вы падаете с кинжалом в груди." VerticalAlignment="Top" Height="29" Width="774"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="430" Margin="145,62,0,-72" VerticalAlignment="Top" Width="502" Source="/Image\156.png"/>
+
+    </Grid>
+</Window>
