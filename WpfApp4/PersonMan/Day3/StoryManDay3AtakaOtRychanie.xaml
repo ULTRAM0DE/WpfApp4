@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfApp4.PersonMan.Day3.StoryManDay3AtakaOtRychanie"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
+        mc:Ignorable="d"
+        Title="StoryManDay3AtakaOtRychanie" Height="372" Width="771.2">
+    <Grid>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="86" Width="774"><Run Text="Верлок начинает бежать на вас, широко раскрывая пасть и издавая страшное рычание. вы не находите ничего лучше, чем... Вы разгоняетесь и прокатываетесь у него между ног. Верлок не понимает где вы, но песок, который попал вам в глаза очень сильно помешал. Пока вы "/><Run Text="очищаете от"/><Run Text=" глаза песка, Верлок, не теряя времени, быстро разворачивается и сильным ударом откидывает ва"/><Run Text="с"/><Run Text=" от себя. Кажется, вы ранены, вы "/><Run Text="чувствуете сильную боль в руке,возможно перелом,"/><Run Text=" от сильного удала об землю, шансов одолеть врага всё меньше и меньше, но вы не можете сдаваться и идёте до конца. Каковы ваши следующие действия?"/></TextBlock>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="206" Margin="173,96,0,0" VerticalAlignment="Top" Width="366" Source="/Image\202.png" RenderTransformOrigin="0.538,0.436"/>
+        <Button x:Name="button" Content="Блок " HorizontalAlignment="Left" Margin="168,280,0,0" VerticalAlignment="Top" Width="151" Height="41"/>
+        <Button x:Name="button1" Content="Уклонение" HorizontalAlignment="Left" Margin="395,280,0,0" VerticalAlignment="Top" Width="177" Height="41"/>
+
+    </Grid>
+</Window>

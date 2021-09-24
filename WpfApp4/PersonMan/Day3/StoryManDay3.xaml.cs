@@ -23,5 +23,17 @@ namespace WpfApp4.PersonMan.Day3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay3_Fight storyManDay3_Fight = new StoryManDay3_Fight();
+            storyManDay3_Fight.Show();
+            this.Close();
+        }
     }
 }

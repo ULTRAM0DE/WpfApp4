@@ -5,8 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3" Height="450" Width="800">
+        Title="StoryManDay3" Height="441.29" Width="434.194">
     <Grid>
-        
+        <Image x:Name="image" HorizontalAlignment="Left" Height="241" Margin="124,10,-54,0" VerticalAlignment="Top" Width="358" Source="/Image\199.png"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="81" Width="408"><Run Text="Верлок"/><Run Text=". "/><Run Text="Умерший легендарный гладиатор, ходят слухи что при жизни он отличался особой жестокостью к противнику. Из-за ненависти что пылала в его сердце Верлок воскрес из мертвых и приобрел нечеловеческую силу и облик, снова став легендой гладиаторских боев. У вас нет шансов, пока можете выключите игру."/></TextBlock>
+        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="37,342,0,0" VerticalAlignment="Top" Width="128" Height="49" Click="button_Click"/>
+        <Button x:Name="button1" Content="Выйти" HorizontalAlignment="Left" Margin="242,342,0,0" VerticalAlignment="Top" Width="140" Height="49" Click="button1_Click"/>
+
     </Grid>
 </Window>

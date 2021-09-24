@@ -88,6 +88,27 @@
     <Compile Include="PersonMan\Day3\StoryManDay3.xaml.cs">
       <DependentUpon>StoryManDay3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3AtakaOtRychanie.xaml.cs">
+      <DependentUpon>StoryManDay3AtakaOtRychanie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3Ataka_nogi.xaml.cs">
+      <DependentUpon>StoryManDay3Ataka_nogi.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3BlockRanenii.xaml.cs">
+      <DependentUpon>StoryManDay3BlockRanenii.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3Pesok_v_glaza.xaml.cs">
+      <DependentUpon>StoryManDay3Pesok_v_glaza.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3YklonenieOtRychanie.xaml.cs">
+      <DependentUpon>StoryManDay3YklonenieOtRychanie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3Yklonenie_Ranenie.xaml.cs">
+      <DependentUpon>StoryManDay3Yklonenie_Ranenie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3_Fight.xaml.cs">
+      <DependentUpon>StoryManDay3_Fight.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PersonMan\StoryMan.xaml.cs">
       <DependentUpon>StoryMan.xaml</DependentUpon>
     </Compile>
@@ -147,6 +168,34 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="PersonMan\Day3\StoryManDay3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3AtakaOtRychanie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3Ataka_nogi.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3BlockRanenii.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3Pesok_v_glaza.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3YklonenieOtRychanie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3Yklonenie_Ranenie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3_Fight.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -343,6 +392,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\144.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\188.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\199.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\201.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\202.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
