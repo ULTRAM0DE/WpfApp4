@@ -8,7 +8,7 @@
         Title="StoryManDay3Pesok_v_glaza" Height="444.193" Width="431.29">
     <Grid>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="774"><Run Text="Ловким движением вы попадаете Верлоку в глаза, он заливается ревом "/><LineBreak/><Run Text="и машет руками из стороны в сторону надеясь "/><LineBreak/><Run Text="попасть по вам, Забрать меч получится либо сейчас либо никогда"/></TextBlock>
-        <Button x:Name="button" Content="Забрать меч" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" Width="176" Height="54"/>
+        <Button x:Name="button" Content="Забрать меч" HorizontalAlignment="Left" Margin="10,336,0,0" VerticalAlignment="Top" Width="176" Height="54" Click="button_Click"/>
         <Button x:Name="button1" Content="Попробовать атаковать" HorizontalAlignment="Left" Margin="254,336,0,0" VerticalAlignment="Top" Width="140" Height="54"/>
         <Image x:Name="image" HorizontalAlignment="Left" Height="265" Margin="88,61,0,0" VerticalAlignment="Top" Width="306" Source="/Image\201.png"/>
 

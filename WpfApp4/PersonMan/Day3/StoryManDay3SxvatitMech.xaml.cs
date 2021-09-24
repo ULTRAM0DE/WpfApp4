@@ -15,20 +15,13 @@ using System.Windows.Shapes;
 namespace WpfApp4.PersonMan.Day3
 {
     /// <summary>
-    /// Логика взаимодействия для StoryManDay3Pesok_v_glaza.xaml
+    /// Логика взаимодействия для StoryManDay3SxvatitMech.xaml
     /// </summary>
-    public partial class StoryManDay3Pesok_v_glaza : Window
+    public partial class StoryManDay3SxvatitMech : Window
     {
-        public StoryManDay3Pesok_v_glaza()
+        public StoryManDay3SxvatitMech()
         {
             InitializeComponent();
-        }
-
-        private void button_Click(object sender, RoutedEventArgs e)
-        {
-            StoryManDay3SxvatitMech storyManDay3SxvatitMech = new StoryManDay3SxvatitMech();
-            storyManDay3SxvatitMech.Show();
-            this.Close();
         }
     }
 }

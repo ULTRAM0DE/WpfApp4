@@ -23,5 +23,13 @@ namespace WpfApp4.PersonMan.Day3
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay3SxvatitMech storyManDay3SxvatitMech = new StoryManDay3SxvatitMech();
+            storyManDay3SxvatitMech.Show();
+            this.Close();
+
+        }
     }
 }

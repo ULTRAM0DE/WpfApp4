@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3Ataka_nogi" Height="450" Width="800">
+        Title="StoryManDay3Ataka_nogi" Height="454.355" Width="669.355">
     <Grid>
-        
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="54" Width="774"><Run Text="Вы пытаетесь бить Верлока по ногам. "/><LineBreak/><Run Text="Но его толстая кожа никак не пропускает удары. Верлок разозлился окончательно."/><LineBreak/><Run Text=" Он хватает вас за ногу и поднимает вверх. Своими когтями  он впивается в вашу ногу и прокалывает кожу насквозь "/></TextBlock>
+        <Button x:Name="button" Content="Уклонение" HorizontalAlignment="Left" Margin="103,356,0,0" VerticalAlignment="Top" Width="175" Height="59"/>
+        <Button x:Name="button1" Content="Схватить меч" HorizontalAlignment="Left" Margin="383,356,0,0" VerticalAlignment="Top" Width="178" Height="59" Click="button1_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="265" Margin="232,68,0,0" VerticalAlignment="Top" Width="266" Source="/Image\203.png" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.196"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+
     </Grid>
 </Window>

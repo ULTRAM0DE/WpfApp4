@@ -100,8 +100,14 @@
     <Compile Include="PersonMan\Day3\StoryManDay3Pesok_v_glaza.xaml.cs">
       <DependentUpon>StoryManDay3Pesok_v_glaza.xaml</DependentUpon>
     </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3SxvatitMech.xaml.cs">
+      <DependentUpon>StoryManDay3SxvatitMech.xaml</DependentUpon>
+    </Compile>
     <Compile Include="PersonMan\Day3\StoryManDay3YklonenieOtRychanie.xaml.cs">
       <DependentUpon>StoryManDay3YklonenieOtRychanie.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PersonMan\Day3\StoryManDay3Yklonenie_Noga.xaml.cs">
+      <DependentUpon>StoryManDay3Yklonenie_Noga.xaml</DependentUpon>
     </Compile>
     <Compile Include="PersonMan\Day3\StoryManDay3Yklonenie_Ranenie.xaml.cs">
       <DependentUpon>StoryManDay3Yklonenie_Ranenie.xaml</DependentUpon>
@@ -187,7 +193,15 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3SxvatitMech.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="PersonMan\Day3\StoryManDay3YklonenieOtRychanie.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="PersonMan\Day3\StoryManDay3Yklonenie_Noga.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -407,6 +421,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\202.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\203.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
