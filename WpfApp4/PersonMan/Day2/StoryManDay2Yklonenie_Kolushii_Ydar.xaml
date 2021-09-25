@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="StoryManDay2Yklonenie_Kolushii_Ydar" MaxHeight="450" MaxWidth="696.935">
   
-    <Grid Margin="0,0,63.6,73.6">
+    <Grid Margin="0,0,63.6,76.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

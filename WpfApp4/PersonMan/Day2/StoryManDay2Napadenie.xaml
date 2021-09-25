@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2Napadenie" MaxHeight="450" MaxWidth="696.935">
+        Title="StoryManDay2Napadenie" MaxHeight="450" MaxWidth="696.935" Height="448.4" Width="706.4">
   
-    <Grid Margin="0,0,60.6,73.6">
+    <Grid Margin="0,0,-5.6,1.4">
 
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="207" Width="674"><Run Text="Вы встаете в стойку пытаясь поймать хотя бы малейший шанс для удачной атаки, "/><LineBreak/><Run Text="но Актовиан отработанным в десятках боев ударом совершает обманный маневр,"/><LineBreak/><Run Text=" тем самым провоцируя вас "/><LineBreak/><Run Text="на атаку, а после трезубцем наносит удар вам в ногу. "/><LineBreak/><Run Text="Актовиан замахивается для второго удара, что будете делать?"/></TextBlock>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="141,363,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="button_Click"/>
-        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="408,363,0,0" VerticalAlignment="Top" Width="165" Height="42" Click="button1_Click"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="143,337,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="button_Click"/>
+        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="404,337,0,0" VerticalAlignment="Top" Width="165" Height="42" Click="button1_Click"/>
 
     </Grid>
 </Window>

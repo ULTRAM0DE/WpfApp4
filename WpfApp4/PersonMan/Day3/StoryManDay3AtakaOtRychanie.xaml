@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="StoryManDay3AtakaOtRychanie" MaxHeight="450" MaxWidth="696.935">
     
-    <Grid Margin="0,0,60.6,76.6">
+    <Grid Margin="0,0,64.6,77.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

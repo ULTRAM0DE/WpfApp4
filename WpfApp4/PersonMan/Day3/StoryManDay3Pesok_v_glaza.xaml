@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3Pesok_v_glaza" MaxHeight="450" MaxWidth="696.935">
+        Title="StoryManDay3Pesok_v_glaza" MaxHeight="450" MaxWidth="696.935" Height="444.585">
 
-    <Grid Margin="0,0,62.6,78.6">
+    <Grid Margin="0,0,59.6,-19.8">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

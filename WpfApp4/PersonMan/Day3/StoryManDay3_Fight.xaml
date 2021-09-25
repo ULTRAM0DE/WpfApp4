@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3_Fight" MaxHeight="450" MaxWidth="696.935" Height="451.2" Width="694.4">
-   
+        Title="StoryManDay3_Fight" MaxHeight="450" MaxWidth="696.935" Height="448" Width="697.6">
+
     <Grid>
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
