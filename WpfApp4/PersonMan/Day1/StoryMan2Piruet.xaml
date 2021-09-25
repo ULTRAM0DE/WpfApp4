@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryMan2Piruet" MaxHeight="450" MaxWidth="696.935" Height="449.6" Width="698.251">
+        Title="StoryMan2Piruet" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-7.6,-3">
+    <Grid Margin="0,0,63.6,78.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,123,0,0" TextWrapping="Wrap" Text="Вы делаете быстрый перекат за спину врага, но противник это ожидал, он пытается резко развернуться, но слишком поздно, вы резким взмахом меча отражаете его попытку блока и наносите точный удар в область сердца, прерывая жизнь вашего соперника." VerticalAlignment="Top" Height="138" Width="669"/>
-        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="238,326,0,0" VerticalAlignment="Top" Width="245" Height="49" Click="button_Click">
+        <Button x:Name="button" Content="Перейти на следующий бой" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,355,0,0" VerticalAlignment="Top" Width="678" Height="58" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryMan2Pesok2_1" MaxHeight="450" MaxWidth="696.935" Height="436.535" Width="675.026">
+        Title="StoryMan2Pesok2_1" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-6.2,1.2">
+    <Grid Margin="0,0,67.6,81.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="7,145,-7,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="148" Width="675" Text="Вы резко разворачиваетесь и хотите добить своего врага, но не тут то было. На скользком песке вы поскальзываетесь и оказываетесь в ловушке - на вас летит противник с мечом,ещё чуть-чуть и вы будете мертвы, что же вам делать?"/>
-        <Button x:Name="button" Content="Сделать перекат" HorizontalAlignment="Left" Margin="70,349,0,0" VerticalAlignment="Top" Width="207" Height="54" Click="button_Click">
+        <Button x:Name="button" Content="Сделать перекат" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,293,0,0" VerticalAlignment="Top" Width="655" Height="54" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="button1" Content="Поставить блок" HorizontalAlignment="Left" Margin="442,349,0,0" VerticalAlignment="Top" Width="184" Height="54" Click="button1_Click">
+        <Button x:Name="button1" Content="Поставить блок" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,349,0,0" VerticalAlignment="Top" Width="655" Height="54" Click="button1_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

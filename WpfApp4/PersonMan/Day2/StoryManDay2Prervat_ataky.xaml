@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Prervat_ataky" MaxHeight="450" MaxWidth="696.935" Height="430.4" Width="692.8">
-  
-    <Grid Margin="0,0,-6.6,-19.2">
+        Title="StoryManDay2Prervat_ataky" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+
+    <Grid Margin="0,0,63.6,82.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="248,272,0,0" VerticalAlignment="Top" Width="203" Height="58">
+        <Button x:Name="button" Content="Добивание" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top" Width="673" Height="58">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

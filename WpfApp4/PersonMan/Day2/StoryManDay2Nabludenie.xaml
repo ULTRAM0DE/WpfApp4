@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan"
         mc:Ignorable="d"
-        Title="StoryManDay2Nabludenie" MaxHeight="450" MaxWidth="696.935" Height="432.8" Width="667.2">
+        Title="StoryManDay2Nabludenie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-6.2,-19.8">
+    <Grid Margin="0,0,63.6,79.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="192" Width="657"><Run Text="Вы решили посмотреть что собрался сделать Актовиан,он снимает верхний слой своего оружия, и вы замечаете вмонтированный клинок "/><LineBreak/><Run Text="в черенок от вилл, он раскрывает клинок "/><Run Text="и резким замахом наносит вам ранение в ногу"/><Run Text=". И останавливаться он явно не собирается так как краем глаза вы замечаете блеск его клинка."/></TextBlock>
-        <Button x:Name="button" Content="Блок" HorizontalAlignment="Left" Margin="130,339,0,0" VerticalAlignment="Top" Width="135" Height="44" Click="button_Click">
+        <Button x:Name="button" Content="Блок" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,325,0,0" VerticalAlignment="Top" Width="647" Height="44" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="button1" Content="Кувырок" HorizontalAlignment="Left" Margin="423,339,0,0" VerticalAlignment="Top" Width="152" Height="44" Click="button1_Click">
+        <Button x:Name="button1" Content="Кувырок" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,369,0,0" VerticalAlignment="Top" Width="647" Height="44" Click="button1_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

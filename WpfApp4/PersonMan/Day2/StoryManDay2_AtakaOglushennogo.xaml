@@ -5,13 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2_AtakaOglushennogo" MaxHeight="450" MaxWidth="696.935" Height="440.89" Width="683.735">
-    
-    <Grid Margin="0,0,-6.4,-19.8">
+        Title="StoryManDay2_AtakaOglushennogo" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+
+    <Grid Margin="0,0,66.6,79.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Наблюдать" HorizontalAlignment="Left" Margin="409,363,0,0" VerticalAlignment="Top" Width="164" Height="47" Click="button_Click">
+        <Button x:Name="button" Content="Наблюдать" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="664" Height="47" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -19,7 +19,7 @@
             </Button.Resources>
         </Button>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="0,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="182" Width="662"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
-        <Button x:Name="button1" Content="Атаковать" HorizontalAlignment="Left" Margin="79,363,0,0" VerticalAlignment="Top" Width="154" Height="47" Click="button1_Click">
+        <Button x:Name="button1" Content="Атаковать" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" Width="664" Height="47" Click="button1_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

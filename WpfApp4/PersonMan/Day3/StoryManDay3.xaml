@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3" MaxHeight="450" MaxWidth="696.935" Height="423.2" Width="664">
+        Title="StoryManDay3" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-6.4,-19.4">
+    <Grid Margin="0,0,63.6,82.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="7,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="166" Width="657"><Run Text="Верлок"/><Run Text=". "/><Run Text="Умерший легендарный гладиатор, ходят слухи что при жизни он отличался особой жестокостью к противнику. Из-за ненависти что пылала в его сердце Верлок воскрес из мертвых и приобрел нечеловеческую силу и облик, снова став легендой гладиаторских боев. У вас нет шансов, пока можете выключите игру."/></TextBlock>
-        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="131,312,0,0" VerticalAlignment="Top" Width="128" Height="49" Click="button_Click">
+        <TextBlock x:Name="textBlock" FontSize="22"  Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="7,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="182" Width="657"><Run Text="Верлок"/><Run Text=". "/><Run Text="Умерший легендарный гладиатор, ходят слухи что при жизни он отличался особой жестокостью к противнику. Из-за ненависти что пылала в его сердце Верлок воскрес из мертвых и приобрел нечеловеческую силу и облик, снова став легендой гладиаторских боев. У вас нет шансов, пока можете выключите игру."/></TextBlock>
+        <Button x:Name="button" Content="Начать бой" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,305,0,0" VerticalAlignment="Top" Width="644" Height="49" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="button1" Content="Выйти" HorizontalAlignment="Left" Margin="446,312,0,0" VerticalAlignment="Top" Width="140" Height="49" Click="button1_Click">
+        <Button x:Name="button1" Content="Выйти" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,354,0,0" VerticalAlignment="Top" Width="644" Height="49" Click="button1_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

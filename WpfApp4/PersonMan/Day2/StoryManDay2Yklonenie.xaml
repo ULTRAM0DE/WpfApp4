@@ -5,14 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2Yklonenie" MaxHeight="450" MaxWidth="696.935" Height="448.132" Width="699.736">
+        Title="StoryManDay2Yklonenie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-24.6,-19.6">
+    <Grid Margin="0,0,65.6,82.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" Foreground="#d3d3d3" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="221" Width="695"/>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click">
+        <Button x:Name="button" Content="Атака" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,359,0,0" VerticalAlignment="Top" Width="695" Height="69" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

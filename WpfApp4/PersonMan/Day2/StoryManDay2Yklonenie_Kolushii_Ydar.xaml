@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Yklonenie_Kolushii_Ydar" MaxHeight="450" MaxWidth="696.935">
+        Title="StoryManDay2Yklonenie_Kolushii_Ydar" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
   
     <Grid Margin="0,0,63.6,76.6">
         <Grid.Background>
