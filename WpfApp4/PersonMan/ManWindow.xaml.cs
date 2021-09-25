@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Drawing;
+using System.Drawing.Text;
 
 namespace WpfApp4
 {
@@ -19,10 +21,15 @@ namespace WpfApp4
     /// </summary>
     public partial class ManWindow : Window
     {
+        
         public ManWindow()
         {
             InitializeComponent();
+            
         }
+
+       
+        
 
         private void Story1button_Click(object sender, RoutedEventArgs e)
         {

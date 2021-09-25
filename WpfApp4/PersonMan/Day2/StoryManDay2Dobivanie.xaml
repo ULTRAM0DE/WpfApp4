@@ -5,11 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Dobivanie" Height="450" Width="800">
-    <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="774" Height="51"><Run Text="Актовиан не зря получил свое прозвище, как только вы замахнулись для удара он резко схватил кусок вилл под своими ногами и вонзил их вам в плечо, но ваш клинок в этот момент достигал его шеи, вы победили, но какой ценой"/><Run Text="?"/></TextBlock>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="271" Margin="192,61,0,0" VerticalAlignment="Top" Width="455" Source="/Image\187.jpg"/>
-        <Button x:Name="button" Content="Последний бой" HorizontalAlignment="Left" Margin="295,361,0,0" VerticalAlignment="Top" Width="177" Height="49" Click="button_Click"/>
+        Title="StoryManDay2Dobivanie" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,59.6,82.6">
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="676" Height="135"><Run Text="Актовиан не зря получил свое прозвище, как только вы замахнулись для удара он резко схватил кусок вилл под своими ногами и вонзил их вам в плечо, но ваш клинок в этот момент достигал его шеи, вы победили, но какой ценой"/><Run Text="?"/></TextBlock>
+        <Button x:Name="button" Content="Последний бой" HorizontalAlignment="Left" Margin="244,347,0,0" VerticalAlignment="Top" Width="183" Height="66" Click="button_Click"/>
 
     </Grid>
 </Window>

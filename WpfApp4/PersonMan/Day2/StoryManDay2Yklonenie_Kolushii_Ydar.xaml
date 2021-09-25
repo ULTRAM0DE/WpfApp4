@@ -5,10 +5,25 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Yklonenie_Kolushii_Ydar" Height="450" Width="800">
+        Title="StoryManDay2Yklonenie_Kolushii_Ydar" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
     <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="370" Margin="160,86,0,-36" VerticalAlignment="Top" Width="418" Source="/Image\156.png"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Ваше уклонение не дало результата, клинок Актовиана пробил вашу грудь и все что вы видите перед тем как упасть в бездну это довольное лицо Актовиана." VerticalAlignment="Top" Height="71" Width="774"/>
+        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="7,117,0,0" TextWrapping="Wrap" Text="Ваше уклонение не дало результата, клинок Актовиана пробил вашу грудь и все что вы видите перед тем как упасть в бездну это довольное лицо Актовиана." VerticalAlignment="Top" Height="265" Width="688" RenderTransformOrigin="0.5,0.5">
+            <TextBlock.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="0.316"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-1.606"/>
+                </TransformGroup>
+            </TextBlock.RenderTransform>
+        </TextBlock>
 
     </Grid>
 </Window>

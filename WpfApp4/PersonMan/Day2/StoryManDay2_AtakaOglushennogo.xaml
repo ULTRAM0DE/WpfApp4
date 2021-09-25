@@ -5,11 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2_AtakaOglushennogo" Height="450" Width="536.864">
-    <Grid>
-        <Button x:Name="button" Content="Наблюдать" HorizontalAlignment="Left" Margin="275,363,0,0" VerticalAlignment="Top" Width="164" Height="47" Click="button_Click"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="92" Width="774"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="266" Margin="128,87,-564.6,0" VerticalAlignment="Top" Width="967" Source="/Image\24.jpg"/>
+        Title="StoryManDay2_AtakaOglushennogo" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,66.6,81.6">
+        <Button x:Name="button" Content="Наблюдать" HorizontalAlignment="Left" Margin="385,363,0,0" VerticalAlignment="Top" Width="164" Height="47" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="183" Width="674"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
         <Button x:Name="button1" Content="Атаковать" HorizontalAlignment="Left" Margin="79,363,0,0" VerticalAlignment="Top" Width="154" Height="47" Click="button1_Click"/>
 
     </Grid>

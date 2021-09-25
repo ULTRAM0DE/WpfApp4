@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryMan2_2Pesok" Height="450" Width="800">
-    <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="269" Margin="178,48,-275.4,0" VerticalAlignment="Top" Width="891" Source="/Image\15.jpg"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="33" Width="774"><Run Text="Вы встаете в стойку, ваш противник пытается нанести вам смертельный удар,но в самый последний момент вы отбиваете атаку ,тем самым дав себе несколько мгновений для атаки и вы используете их, обрывая жизнь вашего соперника"/><Run Text="."/></TextBlock>
+        Title="StoryMan2_2Pesok" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,65.6,72.6">
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="2,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="133" Width="694"><Run Text="Вы встаете в стойку, ваш противник пытается нанести вам смертельный удар,но в самый последний момент вы отбиваете атаку ,тем самым дав себе несколько мгновений для атаки и вы используете их, обрывая жизнь вашего соперника"/><Run Text="."/></TextBlock>
         <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="252,348,0,0" VerticalAlignment="Top" Width="213" Height="62" Click="button_Click"/>
 
     </Grid>

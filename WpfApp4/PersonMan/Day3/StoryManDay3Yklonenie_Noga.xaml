@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3Yklonenie_Noga" Height="450" Width="800">
-    <Grid>
+        Title="StoryManDay3Yklonenie_Noga" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,69.6,85.6">
         
     </Grid>
 </Window>

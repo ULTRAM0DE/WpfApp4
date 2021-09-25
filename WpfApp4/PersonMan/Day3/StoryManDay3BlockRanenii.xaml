@@ -5,9 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3BlockRanenii" Height="450" Width="800">
-    <Grid>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="251" Margin="258,88,0,0" VerticalAlignment="Top" Width="385" Source="/Image\200.png"/>
-
-    </Grid>
+        Title="StoryManDay3BlockRanenii" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,66.6,86.6"/>
 </Window>

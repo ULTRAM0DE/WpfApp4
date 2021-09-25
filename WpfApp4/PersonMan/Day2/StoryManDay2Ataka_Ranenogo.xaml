@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan"
         mc:Ignorable="d"
-        Title="StoryManDay2Ataka_Ranenogo" Height="450" Width="800">
-    <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Актовиан ждал атаки и проткнул ваше сердце кинжалом который он скрывал придерживая рану, вы падаете с кинжалом в груди." VerticalAlignment="Top" Height="29" Width="774"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="430" Margin="145,62,0,-72" VerticalAlignment="Top" Width="502" Source="/Image\156.png"/>
+        Title="StoryManDay2Ataka_Ranenogo" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,70.6,94.6">
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,136,0,0" TextWrapping="Wrap" Text="Актовиан ждал атаки и проткнул ваше сердце кинжалом который он скрывал придерживая рану, вы падаете с кинжалом в груди." VerticalAlignment="Top" Height="80" Width="671"/>
 
     </Grid>
 </Window>

@@ -5,10 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Blok_Vihrevaya_Ataka" Height="450" Width="800">
-    <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Вы смогли заблокировать атаку Актовиана и это дало вам пару мнгновений для удара которые вы использовали, чтобы быстрым колющим ударом пробить актовиану грудь,отправив его к праотцам" VerticalAlignment="Top" Height="48" Width="783"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="270" Margin="192,63,0,0" VerticalAlignment="Top" Width="374" Source="/Image\187.jpg"/>
+        Title="StoryManDay2Blok_Vihrevaya_Ataka" MaxHeight="450" MaxWidth="696.935">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
+    <Grid Margin="0,0,60.6,79.6">
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,147,0,0" TextWrapping="Wrap" Text="Вы смогли заблокировать атаку Актовиана и это дало вам пару мнгновений для удара которые вы использовали, чтобы быстрым колющим ударом пробить актовиану грудь,отправив его к праотцам" VerticalAlignment="Top" Height="115" Width="680"/>
         <Button x:Name="button" Content="Следующий бой" HorizontalAlignment="Left" Margin="269,358,0,0" VerticalAlignment="Top" Width="209" Height="52" Click="button_Click"/>
 
     </Grid>
