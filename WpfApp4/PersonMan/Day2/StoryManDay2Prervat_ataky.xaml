@@ -5,17 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Prervat_ataky" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid>
-        <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="247,346,0,0" VerticalAlignment="Top" Width="203" Height="58"/>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Ваше действие чуть не отправило вас на тот свет, но вы выбили оружие Актовиана из его рук,теперь остается только его добить." VerticalAlignment="Top" Height="272" Width="678"/>
+        Title="StoryManDay2Prervat_ataky" MaxHeight="450" MaxWidth="696.935" Height="430.4" Width="692.8">
+  
+    <Grid Margin="0,0,-6.6,-19.2">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="248,272,0,0" VerticalAlignment="Top" Width="203" Height="58"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Ваше действие чуть не отправило вас на тот свет, но вы выбили оружие Актовиана из его рук,теперь остается только его добить." VerticalAlignment="Top" Height="86" Width="678"/>
 
     </Grid>
 </Window>

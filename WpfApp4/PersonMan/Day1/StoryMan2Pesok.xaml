@@ -6,13 +6,7 @@
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
         Title="StoryMan2Pesok" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
+  
     <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,58.6,82.6">
         <Grid.RenderTransform>
             <TransformGroup>
@@ -22,6 +16,9 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" Text="Противник отворачивается, и закрывает лицо руками. В панике он быстро пытается очистить глаза от песка, но вы наносите ему чёткий удар в спину. Но противник не собирается сдаваться и нападает на вас снова, каким будет ваше следующие действие?" VerticalAlignment="Top" Height="293" Width="666"/>
         <Button x:Name="button" Content="Вы добиваете противника" HorizontalAlignment="Left" Margin="130,349,0,0" VerticalAlignment="Top" Width="147" Height="61" Click="button_Click"/>
         <Button x:Name="button1" Content="Встать в боевую стойку" HorizontalAlignment="Left" Margin="410,349,0,0" VerticalAlignment="Top" Width="160" Height="61" Click="button1_Click"/>

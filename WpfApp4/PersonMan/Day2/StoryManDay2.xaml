@@ -5,16 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,67.6,79.6">
-        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="260,348,0,0" VerticalAlignment="Top" Width="145" Height="62" Click="button_Click"/>
-        <TextBlock x:Name="textBlock1" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,152,0,0" TextWrapping="Wrap" Text="Актовиан, быстрый соперник который любит применять грязные приемы из-за чего в народе получил прозвище Змееликий" VerticalAlignment="Top" Height="258" Width="675" RenderTransformOrigin="-0.102,0.355"/>
+        Title="StoryManDay2" MaxHeight="450" MaxWidth="696.935" Height="441.356" Width="686.907" >
+
+    <Grid Margin="0,0,-6.2,0">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="272,329,0,0" VerticalAlignment="Top" Width="145" Height="62" Click="button_Click"/>
+        <TextBlock x:Name="textBlock1" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="12,75,0,0" TextWrapping="Wrap" Text="Актовиан, быстрый соперник который любит применять грязные приемы из-за чего в народе получил прозвище Змееликий" VerticalAlignment="Top" Height="249" Width="675" RenderTransformOrigin="-0.102,0.355"/>
     </Grid>
 </Window>

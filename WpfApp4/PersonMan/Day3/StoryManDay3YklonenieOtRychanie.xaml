@@ -5,18 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3YklonenieOtRychanie" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,60.6,79.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="250" Width="680"><Run Text="Частично вам удалось избежать урона,"/><LineBreak/><Run Text=" но когти Верлока все таки нанесли вам небольшую рану на боку"/></TextBlock>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="171,367,0,0" VerticalAlignment="Top" Width="142" Height="40"/>
-        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="453,367,0,0" VerticalAlignment="Top" Width="136" Height="40"/>
+        Title="StoryManDay3YklonenieOtRychanie" MaxHeight="450" MaxWidth="696.935" Height="407.6" Width="651.2">
+
+    <Grid Margin="0,0,-6.2,-19.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,157,-49,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="680"><Run Text="Частично вам удалось избежать урона,"/><LineBreak/><Run Text=" но когти Верлока все таки нанесли вам небольшую рану на боку"/></TextBlock>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="121,293,0,0" VerticalAlignment="Top" Width="142" Height="40"/>
+        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="416,293,0,0" VerticalAlignment="Top" Width="136" Height="40"/>
 
     </Grid>
 </Window>

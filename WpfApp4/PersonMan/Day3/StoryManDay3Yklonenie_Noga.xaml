@@ -6,14 +6,10 @@
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
         Title="StoryManDay3Yklonenie_Noga" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,69.6,85.6">
-        
+   
+    <Grid Margin="0,0,62.6,82.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
     </Grid>
 </Window>

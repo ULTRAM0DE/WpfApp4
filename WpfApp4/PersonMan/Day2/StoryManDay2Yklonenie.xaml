@@ -5,17 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryManDay2Yklonenie" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,71.6,88.6">
-        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="290" Width="670"/>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="266,309,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click"/>
+        Title="StoryManDay2Yklonenie" MaxHeight="450" MaxWidth="696.935" Height="448.132" Width="699.736">
+
+    <Grid Margin="0,0,-9.6,-19.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="221" Width="670"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click"/>
 
     </Grid>
 </Window>

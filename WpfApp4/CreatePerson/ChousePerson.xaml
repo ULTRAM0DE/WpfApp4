@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="ChousePerson" Height="450" Width="800">
     <Grid>
-        <Button x:Name="button" Content="Вернуться" HorizontalAlignment="Left" Margin="307,333,0,0" VerticalAlignment="Top" Width="97" Height="27" Click="button_Click"/>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="174,39,0,0" TextWrapping="Wrap" Text="Это окно выбора персонажа,сделайте выбор чтобы продолжить)" VerticalAlignment="Top"/>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <Button x:Name="button" Content="Вернуться"  HorizontalAlignment="Left" Margin="307,333,0,0" VerticalAlignment="Top" Width="97" Height="27" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="27" HorizontalAlignment="Left" Margin="92,94,0,0" TextWrapping="Wrap" Text="Это окно выбора персонажа,сделайте выбор чтобы продолжить)" VerticalAlignment="Top" Height="107" Width="598"/>
         <Button x:Name="ManButton" Content="Мужчина" HorizontalAlignment="Left" Margin="92,249,0,0" VerticalAlignment="Top" Width="121" Height="50" Click="ManButton_Click"/>
         <Button x:Name="WomanButton" Content="Женщина" HorizontalAlignment="Left" Margin="502,249,0,0" VerticalAlignment="Top" Width="147" Height="50" Click="WomanButton_Click"/>
 

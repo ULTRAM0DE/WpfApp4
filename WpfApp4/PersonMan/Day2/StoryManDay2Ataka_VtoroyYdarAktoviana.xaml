@@ -5,15 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Ataka_VtoroyYdarAktoviana" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,62.6,86.6">
+        Title="StoryManDay2Ataka_VtoroyYdarAktoviana" MaxHeight="450" MaxWidth="696.935" Height="448" Width="703.2">
+   
+    <Grid Margin="0,0,-12.6,-2.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,173,0,0" TextWrapping="Wrap" Text="Ваша атака не принесла результатов, зато дала Актовиану пару секунд чтобы нанести вам роковой удар стоивший вам жизни" VerticalAlignment="Top" Height="87" Width="672"/>
 
     </Grid>

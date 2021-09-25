@@ -6,15 +6,12 @@
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
         Title="StoryManDay3Pesok_v_glaza" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,77.6,90.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,122,-5,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="268" Width="679"><Run Text="Ловким движением вы попадаете Верлоку в глаза, он заливается ревом "/><LineBreak/><Run Text="и машет руками из стороны в сторону надеясь "/><LineBreak/><Run Text="попасть по вам, Забрать меч получится либо сейчас либо никогда"/></TextBlock>
+
+    <Grid Margin="0,0,62.6,78.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="151" Width="679"><Run Text="Ловким движением вы попадаете Верлоку в глаза, он заливается ревом "/><LineBreak/><Run Text="и машет руками из стороны в сторону надеясь "/><LineBreak/><Run Text="попасть по вам, Забрать меч получится либо сейчас либо никогда"/></TextBlock>
         <Button x:Name="button" Content="Забрать меч" HorizontalAlignment="Left" Margin="93,336,0,0" VerticalAlignment="Top" Width="176" Height="54" Click="button_Click"/>
         <Button x:Name="button1" Content="Попробовать атаковать" HorizontalAlignment="Left" Margin="435,336,0,0" VerticalAlignment="Top" Width="140" Height="54"/>
 

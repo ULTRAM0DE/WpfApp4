@@ -5,15 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryMan2Pesok3_2" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,69.6,82.6">
+        Title="StoryMan2Pesok3_2" MaxHeight="450" MaxWidth="696.935" Height="436.535" Width="689.542">
+
+    <Grid Margin="0,0,-5.6,-1.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,150,0,0" TextWrapping="Wrap" Text="Вы пытаетесь поставить блок, но все тчетно, секира противника пробивает ваше тело как нож масло, вы медленно закатываете глаза и погружаетесь в вечную темноту." VerticalAlignment="Top" Height="114" Width="668"/>
 
     </Grid>

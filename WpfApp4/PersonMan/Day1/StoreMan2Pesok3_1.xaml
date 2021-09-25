@@ -6,14 +6,11 @@
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
         Title="StoreMan2Pesok3_1" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
+   
     <Grid Margin="0,0,68.6,79.6">
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" FontFamily="Cascadia Mono SemiBold" FontSize="27" Margin="0,141,0,0" TextWrapping="Wrap" Text="Вы чудом успеваете оттолкнуться от песка и перекатиться за спину вашему врагу. Вы оказываетесь у него за спиной и наносите решающий удар. Наконец-то враг повержен." VerticalAlignment="Top" Height="269" Width="684"/>
         <Button x:Name="button" Content="Перейти на следующий день" HorizontalAlignment="Left" Margin="235,341,0,0" VerticalAlignment="Top" Width="259" Height="69" Click="button_Click"/>
 

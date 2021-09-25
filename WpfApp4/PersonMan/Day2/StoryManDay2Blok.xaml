@@ -5,18 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Blok" MaxHeight="450" MaxWidth="696.935">
-    <Window.Background>
-        <ImageBrush>
-            <ImageBrush.ImageSource>
-                <BitmapImage UriSource="/Image\Fon.jpg"/>
-            </ImageBrush.ImageSource>
-        </ImageBrush>
-    </Window.Background>
-    <Grid Margin="0,0,60.6,81.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="269" Width="681"/>
-        <Button x:Name="button" Content="Блокировать" HorizontalAlignment="Left" Margin="424,357,0,0" VerticalAlignment="Top" Width="147" Height="57" Click="button_Click"/>
-        <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="126,357,0,0" VerticalAlignment="Top" Width="182" Height="57" Click="button1_Click"/>
+        Title="StoryManDay2Blok" MaxHeight="450" MaxWidth="696.935" Height="410.828" Width="653.181">
+
+    <Grid Margin="0,0,-6.6,-19.4">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,-38,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="83" Width="681"/>
+        <Button x:Name="button" Content="Блокировать" HorizontalAlignment="Left" Margin="421,289,0,0" VerticalAlignment="Top" Width="147" Height="57" Click="button_Click"/>
+        <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="128,289,0,0" VerticalAlignment="Top" Width="182" Height="57" Click="button1_Click"/>
 
     </Grid>
 </Window>
