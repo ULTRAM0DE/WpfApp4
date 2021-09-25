@@ -12,7 +12,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,-38,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="83" Width="681"/>
+        <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="83" Width="643"/>
         <Button x:Name="button" Content="Блокировать" HorizontalAlignment="Left" Margin="421,289,0,0" VerticalAlignment="Top" Width="147" Height="57" Click="button_Click"/>
         <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="128,289,0,0" VerticalAlignment="Top" Width="182" Height="57" Click="button1_Click"/>
 

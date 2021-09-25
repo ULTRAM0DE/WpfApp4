@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="7,118,-21,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="166" Width="678"><Run Text="Верлок"/><Run Text=". "/><Run Text="Умерший легендарный гладиатор, ходят слухи что при жизни он отличался особой жестокостью к противнику. Из-за ненависти что пылала в его сердце Верлок воскрес из мертвых и приобрел нечеловеческую силу и облик, снова став легендой гладиаторских боев. У вас нет шансов, пока можете выключите игру."/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="7,118,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="166" Width="657"><Run Text="Верлок"/><Run Text=". "/><Run Text="Умерший легендарный гладиатор, ходят слухи что при жизни он отличался особой жестокостью к противнику. Из-за ненависти что пылала в его сердце Верлок воскрес из мертвых и приобрел нечеловеческую силу и облик, снова став легендой гладиаторских боев. У вас нет шансов, пока можете выключите игру."/></TextBlock>
         <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="131,312,0,0" VerticalAlignment="Top" Width="128" Height="49" Click="button_Click"/>
         <Button x:Name="button1" Content="Выйти" HorizontalAlignment="Left" Margin="446,312,0,0" VerticalAlignment="Top" Width="140" Height="49" Click="button1_Click"/>
 

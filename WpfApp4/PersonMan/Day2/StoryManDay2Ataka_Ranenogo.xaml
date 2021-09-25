@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,136,0,0" TextWrapping="Wrap" Text="Актовиан ждал атаки и проткнул ваше сердце кинжалом который он скрывал придерживая рану, вы падаете с кинжалом в груди." VerticalAlignment="Top" Height="80" Width="671"/>
+        <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,136,0,0" TextWrapping="Wrap" Text="Актовиан ждал атаки и проткнул ваше сердце кинжалом который он скрывал придерживая рану, вы падаете с кинжалом в груди." VerticalAlignment="Top" Height="80" Width="671"/>
 
     </Grid>
 </Window>

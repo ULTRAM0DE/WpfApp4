@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="7,117,0,0" TextWrapping="Wrap" Text="Ваше уклонение не дало результата, клинок Актовиана пробил вашу грудь и все что вы видите перед тем как упасть в бездну это довольное лицо Актовиана." VerticalAlignment="Top" Height="265" Width="688" RenderTransformOrigin="0.5,0.5">
+        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" Foreground="#d3d3d3" FontSize="22" HorizontalAlignment="Left" Margin="7,117,0,0" TextWrapping="Wrap" Text="Ваше уклонение не дало результата, клинок Актовиана пробил вашу грудь и все что вы видите перед тем как упасть в бездну это довольное лицо Актовиана." VerticalAlignment="Top" Height="265" Width="688" RenderTransformOrigin="0.5,0.5">
             <TextBlock.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
