@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3YklonenieOtRychanie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+        Title="StoryManDay3YklonenieOtRychanie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935" Height="445.2" Width="698.135">
 
-    <Grid Margin="0,0,63.6,82.6">
+    <Grid Margin="0,0,-7.6,-20">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

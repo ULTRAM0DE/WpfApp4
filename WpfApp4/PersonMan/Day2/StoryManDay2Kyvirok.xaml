@@ -5,21 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Kyvirok" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+        Title="StoryManDay2Kyvirok" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935" Height="456.4" Width="701.735">
 
-    <Grid Margin="0,0,68.6,80.6">
+    <Grid Margin="0,0,-11.6,-26">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="184" Width="660"><Run Text="Вы делаете кувырок в сторону за секунду до того как клинок Актовиана врезается в землю разбросав песок, вы встаете ощущая боль в"/><LineBreak/><Run Text="ноге, вы чувствуете как что-то теплое стекает от места пореза. Кажется вы ранены, у своей ноги вы замечаете виллы Актовиана. Тем временем Актовиан пытаеться нанести вам колющий удар в грудь"/><Run Text="."/></TextBlock>
-        <Button x:Name="button" Content="Прервать атаку" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,321,0,0" VerticalAlignment="Top" Width="660" Height="46" Click="button_Click">
+        <Button x:Name="button" Content="Прервать атаку" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,321,0,0" VerticalAlignment="Top" Width="682" Height="46" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
                 </Style>
             </Button.Resources>
         </Button>
-        <Button x:Name="button1" Content="Уклонится" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="660" Height="46" Click="button1_Click">
+        <Button x:Name="button1" Content="Уклонится" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,367,0,0" VerticalAlignment="Top" Width="682" Height="46" Click="button1_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

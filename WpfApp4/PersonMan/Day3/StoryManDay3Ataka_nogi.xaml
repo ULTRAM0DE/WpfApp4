@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
         mc:Ignorable="d"
-        Title="StoryManDay3Ataka_nogi" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+        Title="StoryManDay3Ataka_nogi" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935" Height="454.416" Width="698.407">
 
-    <Grid Margin="0,0,62.6,77.6">
+    <Grid Margin="0,0,-7.6,-24">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

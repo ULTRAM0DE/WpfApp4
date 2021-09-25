@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.PersonMan.Day2"
         mc:Ignorable="d"
-        Title="StoryManDay2Dobivanie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+        Title="StoryManDay2Dobivanie" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935" Height="452.4" Width="698.135">
 
 
-    <Grid Margin="0,0,61.6,83.6">
+    <Grid Margin="0,0,-7.6,-22">
 
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="647" Height="132"><Run Text="Актовиан не зря получил свое прозвище, как только вы замахнулись для удара он резко схватил кусок вилл под своими ногами и вонзил их вам в плечо, но ваш клинок в этот момент достигал его шеи, вы победили, но какой ценой"/><Run Text="?"/></TextBlock>
-        <Button x:Name="button" Content="Последний бой" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="637" Height="66" Click="button_Click">
+        <Button x:Name="button" Content="Последний бой" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,330,0,0" VerticalAlignment="Top" Width="678" Height="66" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>

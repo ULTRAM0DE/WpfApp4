@@ -8,7 +8,7 @@
         Title="StoryMan2Block_Klinka" MaxHeight="450" MaxWidth="696.935" Height="427.826" Width="672.123">
     
        
-    <Grid Margin="0,0,-6.4,-1.6">
+    <Grid Margin="0,0,-6.4,-19.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

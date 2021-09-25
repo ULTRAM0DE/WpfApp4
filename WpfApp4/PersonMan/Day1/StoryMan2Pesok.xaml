@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp4.Person"
         mc:Ignorable="d"
-        Title="StoryMan2Pesok" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
+        Title="StoryMan2Pesok" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935" Height="466.074" Width="708.625">
 
-    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,62.6,82.6">
+    <Grid RenderTransformOrigin="0.5,0.5" Margin="0,0,-8.6,-7">
         <Grid.RenderTransform>
             <TransformGroup>
                 <ScaleTransform/>

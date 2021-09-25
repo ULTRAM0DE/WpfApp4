@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="StoryMan2Pesok3_2" MaxHeight="450" MaxWidth="696.935" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,62.6,83.6">
+    <Grid Margin="0,0,62.6,76.6">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>

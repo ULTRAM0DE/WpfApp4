@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="StoryManDay3SxvatitMech" Height="431.129" Width="624.355" MinHeight="450" MinWidth="696.935">
 
-    <Grid Margin="0,0,-6.2,-20">
+    <Grid Margin="0,0,-6.6,-20">
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
