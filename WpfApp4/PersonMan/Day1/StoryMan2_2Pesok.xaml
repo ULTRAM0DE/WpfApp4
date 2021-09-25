@@ -12,7 +12,13 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="2,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="134" Width="694"><Run Text="Вы встаете в стойку, ваш противник пытается нанести вам смертельный удар,но в самый последний момент вы отбиваете атаку ,тем самым дав себе несколько мгновений для атаки и вы используете их, обрывая жизнь вашего соперника"/><Run Text="."/></TextBlock>
-        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="252,348,0,0" VerticalAlignment="Top" Width="213" Height="62" Click="button_Click"/>
+        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="252,348,0,0" VerticalAlignment="Top" Width="213" Height="62" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

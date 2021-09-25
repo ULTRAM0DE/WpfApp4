@@ -12,8 +12,20 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="192" Width="657"><Run Text="Вы решили посмотреть что собрался сделать Актовиан,он снимает верхний слой своего оружия, и вы замечаете вмонтированный клинок "/><LineBreak/><Run Text="в черенок от вилл, он раскрывает клинок "/><Run Text="и резким замахом наносит вам ранение в ногу"/><Run Text=". И останавливаться он явно не собирается так как краем глаза вы замечаете блеск его клинка."/></TextBlock>
-        <Button x:Name="button" Content="Блок" HorizontalAlignment="Left" Margin="130,339,0,0" VerticalAlignment="Top" Width="135" Height="44" Click="button_Click"/>
-        <Button x:Name="button1" Content="Кувырок" HorizontalAlignment="Left" Margin="423,339,0,0" VerticalAlignment="Top" Width="152" Height="44" Click="button1_Click"/>
+        <Button x:Name="button" Content="Блок" HorizontalAlignment="Left" Margin="130,339,0,0" VerticalAlignment="Top" Width="135" Height="44" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button1" Content="Кувырок" HorizontalAlignment="Left" Margin="423,339,0,0" VerticalAlignment="Top" Width="152" Height="44" Click="button1_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

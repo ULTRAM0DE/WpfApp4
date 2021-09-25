@@ -12,8 +12,20 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="151" Width="679"><Run Text="Ловким движением вы попадаете Верлоку в глаза, он заливается ревом "/><LineBreak/><Run Text="и машет руками из стороны в сторону надеясь "/><LineBreak/><Run Text="попасть по вам, Забрать меч получится либо сейчас либо никогда"/></TextBlock>
-        <Button x:Name="button" Content="Забрать меч" HorizontalAlignment="Left" Margin="93,336,0,0" VerticalAlignment="Top" Width="176" Height="54" Click="button_Click"/>
-        <Button x:Name="button1" Content="Попробовать атаковать" HorizontalAlignment="Left" Margin="435,336,0,0" VerticalAlignment="Top" Width="140" Height="54"/>
+        <Button x:Name="button" Content="Забрать меч" HorizontalAlignment="Left" Margin="93,336,0,0" VerticalAlignment="Top" Width="176" Height="54" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button1" Content="Попробовать атаковать" HorizontalAlignment="Left" Margin="435,336,0,0" VerticalAlignment="Top" Width="140" Height="54">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

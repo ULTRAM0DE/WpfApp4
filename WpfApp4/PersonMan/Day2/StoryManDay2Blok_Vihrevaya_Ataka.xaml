@@ -12,7 +12,13 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,147,0,0" TextWrapping="Wrap" Text="Вы смогли заблокировать атаку Актовиана и это дало вам пару мнгновений для удара которые вы использовали, чтобы быстрым колющим ударом пробить актовиану грудь,отправив его к праотцам" VerticalAlignment="Top" Height="125" Width="661"/>
-        <Button x:Name="button" Content="Следующий бой" HorizontalAlignment="Left" Margin="266,310,0,0" VerticalAlignment="Top" Width="209" Height="52" Click="button_Click"/>
+        <Button x:Name="button" Content="Следующий бой" HorizontalAlignment="Left" Margin="266,310,0,0" VerticalAlignment="Top" Width="209" Height="52" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

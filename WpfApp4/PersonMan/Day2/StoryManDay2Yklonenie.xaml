@@ -12,7 +12,13 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" Foreground="#d3d3d3" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="221" Width="695"/>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="263,314,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

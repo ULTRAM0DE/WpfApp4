@@ -12,8 +12,20 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" Foreground="#d3d3d3" FontSize="24" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="280" Width="774"><Run Text="Вы молодой гладиаторский боец подающий большие надежды, публика любит вас и каждый ваш бой собирает полный зал зрителей.Вы до сих пор помните свой первый бой."/><LineBreak/><Run Text="Тогда была дождливая погода, ваш соперник уже был не новичком в гладиаторских поединках, огромный мужчина с секирой в руках против молодого парня спортивного телосложения, казалось что исход боя очевиден но вы оказались не так просты, когда вы уже порядком измотались и меч в ваших руках так и норовил выскользнуть вы сделали..."/></TextBlock>
-        <Button x:Name="button" Content="Бросок песка в глаза" HorizontalAlignment="Left" Margin="62,339,0,0" VerticalAlignment="Top" Width="234" Height="71" Click="button_Click"/>
-        <Button x:Name="button1" Content="Перекат с последующим пируэтом" HorizontalAlignment="Left" Margin="457,339,0,0" VerticalAlignment="Top" Width="219" Height="71" Click="button1_Click"/>
+        <Button x:Name="button" Content="Бросок песка в глаза" HorizontalAlignment="Left" Margin="62,339,0,0" VerticalAlignment="Top" Width="234" Height="71" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button1" Content="Перекат с последующим пируэтом" HorizontalAlignment="Left" Margin="457,339,0,0" VerticalAlignment="Top" Width="219" Height="71" Click="button1_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

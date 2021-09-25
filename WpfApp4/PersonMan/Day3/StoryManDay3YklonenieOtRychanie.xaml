@@ -12,8 +12,20 @@
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="83" Width="638"><Run Text="Частично вам удалось избежать урона,"/><LineBreak/><Run Text=" но когти Верлока все таки нанесли вам небольшую рану на боку"/></TextBlock>
-        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="121,293,0,0" VerticalAlignment="Top" Width="142" Height="40"/>
-        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="416,293,0,0" VerticalAlignment="Top" Width="136" Height="40"/>
+        <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="121,293,0,0" VerticalAlignment="Top" Width="142" Height="40">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="416,293,0,0" VerticalAlignment="Top" Width="136" Height="40">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>

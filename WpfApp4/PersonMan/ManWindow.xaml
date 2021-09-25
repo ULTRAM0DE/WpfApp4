@@ -10,7 +10,19 @@
 
         <Image x:Name="image" HorizontalAlignment="Left" Height="379" Margin="10,0,-219.6,0" VerticalAlignment="Top" Width="507" Source="/Image\12.jpg"/>
         <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,384,-11,0" TextWrapping="Wrap" Text="Вы выбрали мужчину, так выглядит ваш персонаж)" VerticalAlignment="Top" Height="30" Width="301"/>
-        <Button x:Name="Story1button"  Content="Начать Квест" HorizontalAlignment="Left" Margin="89,414,0,0" VerticalAlignment="Top" Width="139" Height="40" Click="Story1button_Click"/>
-        <Button x:Name="button" Content="Вернуться" HorizontalAlignment="Left" Margin="89,459,0,0" VerticalAlignment="Top" Width="139" Height="39" Click="button_Click"/>
+        <Button x:Name="Story1button"  Content="Начать Квест" HorizontalAlignment="Left" Margin="89,414,0,0" VerticalAlignment="Top" Width="139" Height="40" Click="Story1button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button" Content="Вернуться" HorizontalAlignment="Left" Margin="89,459,0,0" VerticalAlignment="Top" Width="139" Height="39" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
 </Window>

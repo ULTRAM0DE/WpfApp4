@@ -12,8 +12,20 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Приготовится к нападению" HorizontalAlignment="Left" Margin="150,330,0,0" VerticalAlignment="Top" Width="162" Height="60" Click="button_Click"/>
-        <Button x:Name="button1" Content="Уклонение" HorizontalAlignment="Left" Margin="408,330,0,0" VerticalAlignment="Top" Width="204" Height="60" Click="button1_Click"/>
+        <Button x:Name="button" Content="Приготовится к нападению" HorizontalAlignment="Left" Margin="150,330,0,0" VerticalAlignment="Top" Width="162" Height="60" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button x:Name="button1" Content="Уклонение" HorizontalAlignment="Left" Margin="408,330,0,0" VerticalAlignment="Top" Width="204" Height="60" Click="button1_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
         <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,131,-4.6,0" TextWrapping="Wrap" Text="Вы выходите на поле и видете как на вас со страшной скоростью несётся Актовиан, ещё чуть-чуть и он накинется на вас, как медведь после спячки. Вам надо срочно что-то предпринимать. Как же вы поступите?" VerticalAlignment="Top" Height="194" Width="680"/>
 
     </Grid>

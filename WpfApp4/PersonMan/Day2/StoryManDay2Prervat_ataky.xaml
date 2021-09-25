@@ -11,7 +11,13 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="248,272,0,0" VerticalAlignment="Top" Width="203" Height="58"/>
+        <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="248,272,0,0" VerticalAlignment="Top" Width="203" Height="58">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Ваше действие чуть не отправило вас на тот свет, но вы выбили оружие Актовиана из его рук,теперь остается только его добить." VerticalAlignment="Top" Height="86" Width="678"/>
 
     </Grid>

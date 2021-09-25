@@ -11,7 +11,13 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="272,329,0,0" VerticalAlignment="Top" Width="145" Height="62" Click="button_Click"/>
+        <Button x:Name="button" Content="Начать бой" HorizontalAlignment="Left" Margin="272,329,0,0" VerticalAlignment="Top" Width="145" Height="62" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
         <TextBlock x:Name="textBlock1" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="12,75,0,0" TextWrapping="Wrap" Text="Актовиан, быстрый соперник который любит применять грязные приемы из-за чего в народе получил прозвище Змееликий" VerticalAlignment="Top" Height="249" Width="675" RenderTransformOrigin="-0.102,0.355"/>
     </Grid>
 </Window>

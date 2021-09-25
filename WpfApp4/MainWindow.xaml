@@ -11,10 +11,24 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
+        
         <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="287,90,0,0" TextWrapping="Wrap" Text="Добро пожаловать в Квест)" VerticalAlignment="Top" Height="58" Width="237"/>
         <TextBlock x:Name="textBlock1" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="287,153,0,0" TextWrapping="Wrap" Text="Вы готовы начать?)" VerticalAlignment="Top" Height="53" Width="284"/>
-        <Button x:Name="button" Content="ДА!!!(Пизд*)" HorizontalAlignment="Left" Margin="326,211,0,0" VerticalAlignment="Top" Width="94" Height="36" Click="button_Click"/>
-        <Button x:Name="button1" Content="Закрыть" HorizontalAlignment="Left" Margin="326,269,0,0" VerticalAlignment="Top" Width="94" Height="46" Click="button1_Click"/>
+        <Button x:Name="button" Content="ДА!!!(Пизд*)" HorizontalAlignment="Left" Margin="326,211,0,0" VerticalAlignment="Top" Width="94" Height="36" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+       
+        <Button x:Name="button1" Content="Закрыть" HorizontalAlignment="Left" Margin="326,269,0,0" VerticalAlignment="Top" Width="94" Height="46" Click="button1_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
 
     </Grid>
 </Window>
