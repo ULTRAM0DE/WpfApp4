@@ -11,7 +11,7 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
-        <Button x:Name="button" Content="Добивание" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top" Width="682" Height="58">
+        <Button x:Name="button" Content="Добивание" Foreground="#d3d3d3" Background="#1d1d1d" HorizontalAlignment="Left" Margin="10,352,0,0" VerticalAlignment="Top" Width="682" Height="58" Click="button_Click">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="5"/>
