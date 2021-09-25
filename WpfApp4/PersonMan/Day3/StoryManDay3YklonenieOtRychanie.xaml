@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,60.6,79.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="102" Width="680"><Run Text="Частично вам удалось избежать урона,"/><LineBreak/><Run Text=" но когти Верлока все таки нанесли вам небольшую рану на боку"/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="250" Width="680"><Run Text="Частично вам удалось избежать урона,"/><LineBreak/><Run Text=" но когти Верлока все таки нанесли вам небольшую рану на боку"/></TextBlock>
         <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="171,367,0,0" VerticalAlignment="Top" Width="142" Height="40"/>
         <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="453,367,0,0" VerticalAlignment="Top" Width="136" Height="40"/>
 

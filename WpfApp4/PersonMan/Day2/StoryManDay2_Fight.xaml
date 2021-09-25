@@ -16,7 +16,7 @@
     <Grid Margin="0,0,69.6,82.6">
         <Button x:Name="button" Content="Приготовится к нападению" HorizontalAlignment="Left" Margin="110,334,0,0" VerticalAlignment="Top" Width="162" Height="60" Click="button_Click"/>
         <Button x:Name="button1" Content="Уклонение" HorizontalAlignment="Left" Margin="410,334,0,0" VerticalAlignment="Top" Width="204" Height="60" Click="button1_Click"/>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,131,0,0" TextWrapping="Wrap" Text="Вы выходите на поле и видете как на вас со страшной скоростью несётся Актовиан, ещё чуть-чуть и он накинется на вас, как медведь после спячки. Вам надо срочно что-то предпринимать. Как же вы поступите?" VerticalAlignment="Top" Height="112" Width="680"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,131,0,0" TextWrapping="Wrap" Text="Вы выходите на поле и видете как на вас со страшной скоростью несётся Актовиан, ещё чуть-чуть и он накинется на вас, как медведь после спячки. Вам надо срочно что-то предпринимать. Как же вы поступите?" VerticalAlignment="Top" Height="263" Width="680"/>
 
     </Grid>
 </Window>

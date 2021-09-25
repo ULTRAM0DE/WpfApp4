@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,66.6,81.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" Text="Хоть ваша рана и дает о себе знать, вы собираетесь с силами и делаете кувырок в сторону оставляя оружие у ног Верлока. Он рычит и скалит зубы готовясь прибить вас как блоху.Все что вам остается, это вернуть свое оружие чтобы иметь хоть какие то шансы" VerticalAlignment="Top" Height="132" Width="685"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,122,0,0" TextWrapping="Wrap" Text="Хоть ваша рана и дает о себе знать, вы собираетесь с силами и делаете кувырок в сторону оставляя оружие у ног Верлока. Он рычит и скалит зубы готовясь прибить вас как блоху.Все что вам остается, это вернуть свое оружие чтобы иметь хоть какие то шансы" VerticalAlignment="Top" Height="288" Width="685"/>
         <Button x:Name="button" Content="Песок в глаза" HorizontalAlignment="Left" Margin="105,351,0,0" VerticalAlignment="Top" Width="182" Height="59" Click="button_Click"/>
         <Button x:Name="button1" Content="Удар по ногам" HorizontalAlignment="Left" Margin="417,351,0,0" VerticalAlignment="Top" Width="178" Height="59" Click="button1_Click"/>
 

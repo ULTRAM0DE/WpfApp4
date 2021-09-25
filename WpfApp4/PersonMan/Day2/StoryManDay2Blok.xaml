@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,60.6,81.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="85" Width="681"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,145,0,0" TextWrapping="Wrap" Text="Вы смогли блокировать атаку Актовиана, он оттолкнул вас пинком ноги в грудь и совершает вихреобразную атаку" VerticalAlignment="Top" Height="269" Width="681"/>
         <Button x:Name="button" Content="Блокировать" HorizontalAlignment="Left" Margin="424,357,0,0" VerticalAlignment="Top" Width="147" Height="57" Click="button_Click"/>
         <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="126,357,0,0" VerticalAlignment="Top" Width="182" Height="57" Click="button1_Click"/>
 

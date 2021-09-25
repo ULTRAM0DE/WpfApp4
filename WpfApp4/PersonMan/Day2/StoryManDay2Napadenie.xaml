@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,3.6,5">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="214" Width="674"><Run Text="Вы встаете в стойку пытаясь поймать хотя бы малейший шанс для удачной атаки, "/><LineBreak/><Run Text="но Актовиан отработанным в десятках боев ударом совершает обманный маневр,"/><LineBreak/><Run Text=" тем самым провоцируя вас "/><LineBreak/><Run Text="на атаку, а после трезубцем наносит удар вам в ногу. "/><LineBreak/><Run Text="Актовиан замахивается для второго удара, что будете делать?"/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="290" Width="674"><Run Text="Вы встаете в стойку пытаясь поймать хотя бы малейший шанс для удачной атаки, "/><LineBreak/><Run Text="но Актовиан отработанным в десятках боев ударом совершает обманный маневр,"/><LineBreak/><Run Text=" тем самым провоцируя вас "/><LineBreak/><Run Text="на атаку, а после трезубцем наносит удар вам в ногу. "/><LineBreak/><Run Text="Актовиан замахивается для второго удара, что будете делать?"/></TextBlock>
         <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="141,363,0,0" VerticalAlignment="Top" Width="159" Height="42" Click="button_Click"/>
         <Button x:Name="button1" Content="Блок" HorizontalAlignment="Left" Margin="408,363,0,0" VerticalAlignment="Top" Width="165" Height="42" Click="button1_Click"/>
 

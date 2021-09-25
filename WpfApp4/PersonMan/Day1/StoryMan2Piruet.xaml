@@ -10,12 +10,15 @@
         <ImageBrush>
             <ImageBrush.ImageSource>
                 <BitmapImage UriSource="/Image\Fon.jpg"/>
+                
             </ImageBrush.ImageSource>
+            
         </ImageBrush>
+        
     </Window.Background>
     <Grid Margin="0,0,72.6,85.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,123,0,0" TextWrapping="Wrap" Text="Вы делаете быстрый перекат за спину врага, но противник это ожидал, он пытается резко развернуться, но слишком поздно, вы резким взмахом меча отражаете его попытку блока и наносите точный удар в область сердца, прерывая жизнь вашего соперника." VerticalAlignment="Top" Height="157" Width="669"/>
-        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="248,361,0,0" VerticalAlignment="Top" Width="245" Height="49" Click="button_Click"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,123,0,0" TextWrapping="Wrap" Text="Вы делаете быстрый перекат за спину врага, но противник это ожидал, он пытается резко развернуться, но слишком поздно, вы резким взмахом меча отражаете его попытку блока и наносите точный удар в область сердца, прерывая жизнь вашего соперника." VerticalAlignment="Top" Height="257" Width="669"/>
+        <Button x:Name="button" Content="Перейти на следующий бой" HorizontalAlignment="Left" Margin="239,266,0,0" VerticalAlignment="Top" Width="245" Height="49" Click="button_Click"/>
 
     </Grid>
 </Window>

@@ -6,9 +6,16 @@
         xmlns:local="clr-namespace:WpfApp4"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    <Window.Background>
+        <ImageBrush>
+            <ImageBrush.ImageSource>
+                <BitmapImage UriSource="/Image\Fon.jpg"/>
+            </ImageBrush.ImageSource>
+        </ImageBrush>
+    </Window.Background>
     <Grid>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="287,90,0,0" TextWrapping="Wrap" Text="Добро пожаловать в Квест)" VerticalAlignment="Top" Height="18" Width="161"/>
-        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="287,113,0,0" TextWrapping="Wrap" Text="Вы готовы начать?)" VerticalAlignment="Top" Height="15" Width="161"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="287,90,0,0" TextWrapping="Wrap" Text="Добро пожаловать в Квест)" VerticalAlignment="Top" Height="58" Width="237"/>
+        <TextBlock x:Name="textBlock1" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="287,153,0,0" TextWrapping="Wrap" Text="Вы готовы начать?)" VerticalAlignment="Top" Height="53" Width="284"/>
         <Button x:Name="button" Content="ДА!!!(Пизд*)" HorizontalAlignment="Left" Margin="326,211,0,0" VerticalAlignment="Top" Width="94" Height="36" Click="button_Click"/>
         <Button x:Name="button1" Content="Закрыть" HorizontalAlignment="Left" Margin="326,269,0,0" VerticalAlignment="Top" Width="94" Height="46" Click="button1_Click"/>
 

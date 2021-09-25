@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,68.6,79.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="683"><Run Text="Вы пытаетесь бить Верлока по ногам. "/><LineBreak/><Run Text="Но его толстая кожа никак не пропускает удары. Верлок разозлился окончательно."/><LineBreak/><Run Text=" Он хватает вас за ногу и поднимает вверх. Своими когтями  он впивается в вашу ногу и прокалывает кожу насквозь "/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="301" Width="683"><Run Text="Вы пытаетесь бить Верлока по ногам. "/><LineBreak/><Run Text="Но его толстая кожа никак не пропускает удары. Верлок разозлился окончательно."/><LineBreak/><Run Text=" Он хватает вас за ногу и поднимает вверх. Своими когтями  он впивается в вашу ногу и прокалывает кожу насквозь "/></TextBlock>
         <Button x:Name="button" Content="Уклонение" HorizontalAlignment="Left" Margin="103,356,0,0" VerticalAlignment="Top" Width="175" Height="59"/>
         <Button x:Name="button1" Content="Схватить меч" HorizontalAlignment="Left" Margin="383,356,0,0" VerticalAlignment="Top" Width="178" Height="59" Click="button1_Click"/>
 

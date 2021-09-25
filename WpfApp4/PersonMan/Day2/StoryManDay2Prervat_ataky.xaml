@@ -15,7 +15,7 @@
     </Window.Background>
     <Grid>
         <Button x:Name="button" Content="Добивание" HorizontalAlignment="Left" Margin="247,346,0,0" VerticalAlignment="Top" Width="203" Height="58"/>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Ваше действие чуть не отправило вас на тот свет, но вы выбили оружие Актовиана из его рук,теперь остается только его добить." VerticalAlignment="Top" Height="151" Width="678"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Ваше действие чуть не отправило вас на тот свет, но вы выбили оружие Актовиана из его рук,теперь остается только его добить." VerticalAlignment="Top" Height="272" Width="678"/>
 
     </Grid>
 </Window>

@@ -15,7 +15,7 @@
     </Window.Background>
     <Grid Margin="0,0,66.6,81.6">
         <Button x:Name="button" Content="Наблюдать" HorizontalAlignment="Left" Margin="385,363,0,0" VerticalAlignment="Top" Width="164" Height="47" Click="button_Click"/>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="183" Width="674"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="276" Width="674"><Run Text="Пока Актовиан замешкался вы пытаетесь совершить атаку, и у вас это получается....отчасти, "/><LineBreak/><Run Text="когда ваш меч уже почти достиг сердца Актовиана он отбивает ваш меч своим трезубцем, "/><LineBreak/><Run Text="ваш удар смещается по касательной "/><LineBreak/><Run Text="в бок,но Актовиант немного отшатнулся и стиснул зубы, он что-то задумал?"/></TextBlock>
         <Button x:Name="button1" Content="Атаковать" HorizontalAlignment="Left" Margin="79,363,0,0" VerticalAlignment="Top" Width="154" Height="47" Click="button1_Click"/>
 
     </Grid>

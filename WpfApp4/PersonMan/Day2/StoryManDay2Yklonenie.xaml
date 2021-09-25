@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,71.6,88.6">
-        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="216" Width="670"/>
+        <TextBlock x:Name="textBlock" FontFamily="Cascadia Mono SemiBold" FontSize="22" HorizontalAlignment="Left" Margin="10,88,0,0" TextWrapping="Wrap" Text="Вы решаете для начала уклониться от его удара. После удачной попытки вам всё таки приходиться нанести удар. Резким взмахом меча вы бьёте рукояткой по затылку противника, тем самым оглушая его. Актовиан падает, но через секунду его трезубец уже почти у вас в спине.Но вы снова чудом успеваете уклониться и противник отбегает, потирая ушибленную мечом голову. Что делать дальше?" VerticalAlignment="Top" Height="290" Width="670"/>
         <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="266,309,0,0" VerticalAlignment="Top" Width="177" Height="69" Click="button_Click"/>
 
     </Grid>

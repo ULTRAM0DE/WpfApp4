@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="0,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="160" Width="684"><Run Text="Верлок "/><Run Text="хватает вас мёртвой хваткой и со всей силы швыряет об землю. От такой силы вы отлетаете в противоположную сторону. Едва подняв голову, вы замечаете, как он бежит на вас, издавая ужасное рычание. Ещё чуть-чуть и он задушит вас. Что же вам делать дальше?"/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="0,109,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="301" Width="684"><Run Text="Верлок "/><Run Text="хватает вас мёртвой хваткой и со всей силы швыряет об землю. От такой силы вы отлетаете в противоположную сторону. Едва подняв голову, вы замечаете, как он бежит на вас, издавая ужасное рычание. Ещё чуть-чуть и он задушит вас. Что же вам делать дальше?"/></TextBlock>
         <Button x:Name="button" Content="Атака" HorizontalAlignment="Left" Margin="144,361,0,0" VerticalAlignment="Top" Width="179" Height="49" Click="button_Click"/>
         <Button x:Name="button1" Content="Уклонение" HorizontalAlignment="Left" Margin="462,361,0,0" VerticalAlignment="Top" Width="185" Height="49" Click="button1_Click"/>
 

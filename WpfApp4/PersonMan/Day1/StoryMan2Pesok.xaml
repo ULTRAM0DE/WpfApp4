@@ -22,7 +22,7 @@
                 <TranslateTransform/>
             </TransformGroup>
         </Grid.RenderTransform>
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" Text="Противник отворачивается, и закрывает лицо руками. В панике он быстро пытается очистить глаза от песка, но вы наносите ему чёткий удар в спину. Но противник не собирается сдаваться и нападает на вас снова, каким будет ваше следующие действие?" VerticalAlignment="Top" Height="129" Width="666"/>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,117,0,0" TextWrapping="Wrap" Text="Противник отворачивается, и закрывает лицо руками. В панике он быстро пытается очистить глаза от песка, но вы наносите ему чёткий удар в спину. Но противник не собирается сдаваться и нападает на вас снова, каким будет ваше следующие действие?" VerticalAlignment="Top" Height="293" Width="666"/>
         <Button x:Name="button" Content="Вы добиваете противника" HorizontalAlignment="Left" Margin="130,349,0,0" VerticalAlignment="Top" Width="147" Height="61" Click="button_Click"/>
         <Button x:Name="button1" Content="Встать в боевую стойку" HorizontalAlignment="Left" Margin="410,349,0,0" VerticalAlignment="Top" Width="160" Height="61" Click="button1_Click"/>
 

@@ -14,7 +14,7 @@
         </ImageBrush>
     </Window.Background>
     <Grid Margin="0,0,65.6,80.6">
-        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="187" Width="660"><Run Text="Вы делаете кувырок в сторону за секунду до того как клинок Актовиана врезается в землю разбросав песок, вы встаете ощущая боль в"/><LineBreak/><Run Text="ноге, вы чувствуете как что-то теплое стекает от места пореза. Кажется вы ранены, у своей ноги вы замечаете виллы Актовиана. Тем временем Актовиан пытаеться нанести вам колющий удар в грудь"/><Run Text="."/></TextBlock>
+        <TextBlock x:Name="textBlock" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="278" Width="660"><Run Text="Вы делаете кувырок в сторону за секунду до того как клинок Актовиана врезается в землю разбросав песок, вы встаете ощущая боль в"/><LineBreak/><Run Text="ноге, вы чувствуете как что-то теплое стекает от места пореза. Кажется вы ранены, у своей ноги вы замечаете виллы Актовиана. Тем временем Актовиан пытаеться нанести вам колющий удар в грудь"/><Run Text="."/></TextBlock>
         <Button x:Name="button" Content="Прервать атаку" HorizontalAlignment="Left" Margin="119,356,0,0" VerticalAlignment="Top" Width="144" Height="46" Click="button_Click"/>
         <Button x:Name="button1" Content="Уклонится" HorizontalAlignment="Left" Margin="435,356,0,0" VerticalAlignment="Top" Width="140" Height="46" Click="button1_Click"/>
 
