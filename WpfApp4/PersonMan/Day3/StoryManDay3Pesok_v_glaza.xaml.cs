@@ -30,5 +30,12 @@ namespace WpfApp4.PersonMan.Day3
             storyManDay3SxvatitMech.Show();
             this.Close();
         }
+
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay3PoprobovatAtakovat storyManDay3PoprobovatAtakovat = new StoryManDay3PoprobovatAtakovat();
+            storyManDay3PoprobovatAtakovat.Show();
+            this.Close();
+        }
     }
 }

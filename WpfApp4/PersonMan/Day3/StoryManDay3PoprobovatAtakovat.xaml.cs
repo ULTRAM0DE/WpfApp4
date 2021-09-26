@@ -12,29 +12,22 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfApp4.Person
+namespace WpfApp4.PersonMan.Day3
 {
     /// <summary>
-    /// Логика взаимодействия для WomanWindow.xaml
+    /// Логика взаимодействия для StoryManDay3PoprobovatAtakovat.xaml
     /// </summary>
-    public partial class WomanWindow : Window
+    public partial class StoryManDay3PoprobovatAtakovat : Window
     {
-        public WomanWindow()
+        public StoryManDay3PoprobovatAtakovat()
         {
             InitializeComponent();
         }
 
-        private void Story2button_Click(object sender, RoutedEventArgs e)
-        {
-            WomanStory womanStory = new WomanStory();
-            womanStory.Show();
-            this.Close();
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            ChousePerson chouse = new ChousePerson();
-            chouse.Show();
+            StoryManDay3 storyManDay3 = new StoryManDay3();
+            storyManDay3.Show();
             this.Close();
         }
     }

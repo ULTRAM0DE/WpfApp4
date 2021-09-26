@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfApp4.PersonMan.Day3.StoryManDay3SxvatitMechAtaka"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp4.PersonMan.Day3"
+        mc:Ignorable="d"
+        Title="StoryManDay3SxvatitMechAtaka" Height="450" Width="700.649">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Image\Fon.jpg"/>
+        </Grid.Background>
+        <TextBlock x:Name="textBlock" FontSize="22" Foreground="#d3d3d3" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,148,0,0" TextWrapping="Wrap" Text="Вы совершаете резкие выпады в незащищенные места Верлока, в ярости он пытается вас атаковать с разбега но вы уклонивший отрубаете голову Верлока, ставший первым победителем этого зверя вы поднимаете его голову и показываете всем зрителям арены.Поздравляю, вы прошли игру)" VerticalAlignment="Top" Height="158" Width="684"/>
+        <Button x:Name="button" Foreground="#d3d3d3" Background="#1d1d1d" Content="Закрыть" HorizontalAlignment="Left" Margin="10,364,0,0" VerticalAlignment="Top" Width="674" Height="46">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>

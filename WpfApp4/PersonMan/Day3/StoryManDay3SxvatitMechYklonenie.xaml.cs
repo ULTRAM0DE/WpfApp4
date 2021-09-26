@@ -15,23 +15,20 @@ using System.Windows.Shapes;
 namespace WpfApp4.PersonMan.Day3
 {
     /// <summary>
-    /// Логика взаимодействия для StoryManDay3SxvatitMech.xaml
+    /// Логика взаимодействия для StoryManDay3SxvatitMechYklonenie.xaml
     /// </summary>
-    public partial class StoryManDay3SxvatitMech : Window
+    public partial class StoryManDay3SxvatitMechYklonenie : Window
     {
-        public StoryManDay3SxvatitMech()
+        public StoryManDay3SxvatitMechYklonenie()
         {
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void button_Click(object sender, RoutedEventArgs e)
         {
-
+            StoryManDay3 storyManDay3 = new StoryManDay3();
+            storyManDay3.Show();
+            this.Close();
         }
     }
 }

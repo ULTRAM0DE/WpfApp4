@@ -31,5 +31,12 @@ namespace WpfApp4.PersonMan.Day3
             this.Close();
 
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay3Yklonenie_Noga storyManDay3Yklonenie_Noga = new StoryManDay3Yklonenie_Noga();
+            storyManDay3Yklonenie_Noga.Show();
+            this.Close();
+        }
     }
 }

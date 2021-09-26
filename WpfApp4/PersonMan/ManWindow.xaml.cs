@@ -40,9 +40,7 @@ namespace WpfApp4
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            ChousePerson chousePerson = new ChousePerson();
-            chousePerson.Show();
-            this.Close();
+           
         }
     }
 }

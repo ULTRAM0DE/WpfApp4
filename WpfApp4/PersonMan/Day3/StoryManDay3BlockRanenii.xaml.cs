@@ -23,5 +23,13 @@ namespace WpfApp4.PersonMan.Day3
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            StoryManDay3 storyManDay3 = new StoryManDay3();
+            storyManDay3.Show();
+            this.Close();
+
+        }
     }
 }

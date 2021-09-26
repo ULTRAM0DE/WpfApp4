@@ -27,8 +27,8 @@ namespace WpfApp4
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-             ChousePerson chouse = new ChousePerson();
-            chouse.Show();
+            StoryMan storyMan = new StoryMan();
+            storyMan.Show();
             this.Close();
         }
 

@@ -11,6 +11,14 @@
         <Grid.Background>
             <ImageBrush ImageSource="/Image\Fon.jpg"/>
         </Grid.Background>
+        <TextBlock x:Name="textBlock" Foreground="#d3d3d3" FontSize="22" FontFamily="Cascadia Mono SemiBold" HorizontalAlignment="Left" Margin="10,158,0,0" TextWrapping="Wrap" Text="Попытка заблокировать атаку зверя плохая идея, перед смертью вы наблюдаете восторженные возгласы толпы и рычание Верлока" VerticalAlignment="Top" Height="124" Width="689"/>
+        <Button x:Name="button" Foreground="#d3d3d3" Background="#1d1d1d" Content="Начать заново?" HorizontalAlignment="Left" Margin="10,381,0,0" VerticalAlignment="Top" Width="689" Height="55" Click="button_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
     </Grid>
-    
+
 </Window>

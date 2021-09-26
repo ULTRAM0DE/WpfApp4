@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace WpfApp4.Person
+namespace WpfApp4.PersonMan.Day3
 {
     /// <summary>
-    /// Логика взаимодействия для WomanStory.xaml
+    /// Логика взаимодействия для StoryManDay3RanenieAtaka.xaml
     /// </summary>
-    public partial class WomanStory : Window
+    public partial class StoryManDay3RanenieAtaka : Window
     {
-        public WomanStory()
+        public StoryManDay3RanenieAtaka()
         {
             InitializeComponent();
         }
